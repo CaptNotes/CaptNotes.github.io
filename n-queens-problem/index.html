@@ -31,8 +31,9 @@
     <p>N皇后问题</p>
     <hr />
   </div>
-  <div class="post-content"><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98/11053477">N 皇后问题</a>是比较典型的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%9B%9E%E6%BA%AF%E6%B3%95">回溯法</a>问题，不过在回溯法中，解决 N 皇后问题算是有一些难度的了。</p>
-<p>网上有很多该问题的解法，我这个虽然不是抄来的，性能也不算彪悍，但相比之下，我对“<a href="https://captnotes.com/">机长出品</a>”的可读性还是很有信心的。所以捞点儿干货贴在这里，以备将来查阅之需。</p>
+  <div class="post-content"><p><img src="/../images/featured_n_queens_problem.jpg"></p>
+<p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98/11053477">N 皇后问题</a>是比较典型的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%9B%9E%E6%BA%AF%E6%B3%95">回溯法</a>问题，不过在回溯法中，解决 N 皇后问题算是有一些难度的了。</p>
+<p>网上有很多该问题的解法，我这个虽然不是抄来的，性能也不算彪悍，但相比之下，我对“<a href="/">机长出品</a>”的可读性还是很有信心的。所以捞点儿干货贴在这里，以备将来查阅之需。</p>
 <p>回溯法的本质是对<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86">树形结构的遍历</a>，一层一层递进，保留符合条件的节点。到达终点后，随着<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E9%80%92%E5%BD%92/1740695">递归</a>的一层层退出，抹掉上一次遍历时留下的痕迹，从而开始下一轮遍历。</p>
 <p>回溯法一般都会结合递归来实现，递归可以简化多层嵌套<code>for</code>循环的场景。但写递归函数时一定要把子问题逻辑捋清楚，并确保退出条件生效。也就是说，每经过一次递归操作，退出条件中的变量一定要有所变化，否则就是递得进去，归不出来了。递归虽然能够简化多层嵌套循环，但并没有改变其本质，因此并不是说递归一定比<code>for</code>循环效率高，避免无效遍历是提升循环效率的一个主要套路。</p>
 <p>在 N 皇后问题中，树的每个节点都代表一个 N×N 大小的棋盘，棋盘上记录了该节点所有直系父级节点里皇后所在的位置，而每个皇后所在的位置必须保证以该位置为中心点画出的“米”字每一笔延伸到棋盘边缘都不会经过另一个皇后。其实，琢磨透了这点儿区别，N 皇后问题和一般的用回溯法在一维数组里找组合的问题也就没多大差别了。</p>
