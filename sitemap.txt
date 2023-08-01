@@ -1,3 +1,4 @@
+https://captnotes.com/gripe-ttos/
 https://captnotes.com/arrogance-ttos/
 https://captnotes.com/anger-ttos/
 https://captnotes.com/preface-ttos/
@@ -142,7 +143,6 @@ https://captnotes.com/shipping-greatness/
 https://captnotes.com/blitzscaling-the-lightning-fast-path-to-building-massively-valuable-companies/
 https://captnotes.com/effective-code-review/
 https://captnotes.com/da-dao-zhi-yi/
-https://captnotes.com/gripe-ttos/
 https://captnotes.com/hooked/
 https://captnotes.com/suspicion-ttos/
 https://captnotes.com/extravagance-ttos/
@@ -158,14 +158,14 @@ https://captnotes.com/n-queens-problem/
 https://captnotes.com/binary-tree-basis/
 https://captnotes.com/about/index.html
 https://captnotes.com/
-https://captnotes.com/categories/%E5%88%9B%E4%B8%9A/
-https://captnotes.com/categories/%E6%9D%82%E6%96%87/
-https://captnotes.com/categories/startup/
-https://captnotes.com/categories/%E7%AE%A1%E7%90%86/
-https://captnotes.com/categories/%E6%95%A3%E6%96%87/
 https://captnotes.com/categories/%E9%98%85%E8%AF%BB/
+https://captnotes.com/categories/%E6%9D%82%E6%96%87/
 https://captnotes.com/categories/%E7%BC%96%E7%A8%8B/
+https://captnotes.com/categories/%E5%88%9B%E4%B8%9A/
+https://captnotes.com/categories/startup/
 https://captnotes.com/categories/startup/%E5%88%9B%E4%B8%9A%E5%8D%81%E5%BF%8C/
+https://captnotes.com/categories/%E7%AE%A1%E7%90%86/
 https://captnotes.com/categories/%E5%B0%8F%E8%AF%B4/
+https://captnotes.com/categories/%E6%95%A3%E6%96%87/
 https://captnotes.com/categories/%E8%AF%97%E8%AF%8D/
 https://captnotes.com/categories/%E5%BD%B1%E8%A7%86/
