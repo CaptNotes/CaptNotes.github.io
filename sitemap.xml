@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://captnotes.com/zero-to-one/</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/build-facebook/</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://captnotes.com/about-interview/</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -389,15 +407,6 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/zero-to-one/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://captnotes.com/martech/</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -426,15 +435,6 @@
   
   <url>
     <loc>https://captnotes.com/contagious/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/build-facebook/</loc>
     
     <lastmod>2023-08-01</lastmod>
     
@@ -1465,13 +1465,6 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/categories/%E7%AE%A1%E7%90%86/</loc>
-    <lastmod>2023-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://captnotes.com/categories/%E6%95%A3%E6%96%87/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -1480,6 +1473,13 @@
   
   <url>
     <loc>https://captnotes.com/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2023-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/categories/%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
