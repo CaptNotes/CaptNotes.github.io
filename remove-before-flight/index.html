@@ -31,7 +31,8 @@
     <p>没什么技术含量的Remove Before Flight</p>
     <hr />
   </div>
-  <div class="post-content"><blockquote>
+  <div class="post-content"><p><img src="/../images/featured_remove_before_flight.jpg"></p>
+<blockquote>
 <p>航空业有很多值得我们借鉴和学习的工作方式，将来有时间我会给大家引荐更多实例。</p>
 </blockquote>
 <p>仔细观察每架停泊着的飞机，会发现机身很多地方都挂着细长的红布条，上面写着“REMOVE BEFORE FLIGHT”，中文翻译成“飞行前拆除”。这种布条没什么技术含量，但是非常重要！</p>
@@ -54,10 +55,10 @@
 <p>我会告诉我的同事，code review 的时候，任何带有“Remove before flight!”标记的代码，除非是注释掉的，否则都不能提交。并且我也鼓励他们使用同样的标记来标注代码。</p>
 <p>上面代码有个好处，使用快捷键，删一行、取消注释一行，两步操作迅速恢复原貌。</p>
 <p>所以我在提交代码前，会全文搜索“Remove before flight!”，然后逐一删除或注释掉。当然也可以从 TODO 框里直接定位，不过如果项目里还有很多其它 TODO 标记，那还是全文搜索比较保险。</p>
-<p>为了方便添加这个标记，我会使用代码模板功能，以 Android Studio 为例，在 Live Templates 里添加模板： <img src="http://captnotes.com/wp-content/uploads/2018/03/RBFSetting.png" alt="Remove Before Flight Template"></p>
+<p>为了方便添加这个标记，我会使用代码模板功能，以 Android Studio 为例，在 Live Templates 里添加模板： <img src="/../images/illustration_remove_before_flight_01.png" alt="Remove Before Flight Template"></p>
 <p>这样就只需在要添加这个标记的位置输入“rbf”，然后一 Tab 就出来了。</p>
 <p>还有一种情况也会产生大量冗余代码。当我们在调试一个调用关系很深，尤其是存在大量回调的 bug 时，常常不得不靠输出很多日志来观察代码的实际运行情况。一方面，这些 Log 的输出可能是实际开发不需要的；另一方面，因为项目本身也存在很多日志，比较容易混在在一起。如下是我的习惯：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">TAG_BUG_9371</span> <span class="operator">=</span> <span class="string">&quot;BUG9371&quot;</span>;   <span class="comment">// <span class="doctag">TODO:</span> Remove before flight!</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">validate</span><span class="params">(String content)</span> &#123;</span><br><span class="line">    Log.d(TAG_BUG_9371, String.format(<span class="string">&quot;Validate content: %s&quot;</span>, content));</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">TAG_BUG_9371</span> <span class="operator">=</span> <span class="string">&quot;BUG9371&quot;</span>;   <span class="comment">// <span class="doctag">TODO:</span> Remove before flight!</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">validate</span><span class="params">(String content)</span> &#123;</span><br><span class="line">    Log.d(TAG_BUG_9371, String.format(<span class="string">&quot;Validate content: %s&quot;</span>, content));</span><br></pre></td></tr></table></figure>
 
 <p>因为 TAG 是公开级别，所以在其它类、包里面，只要是这个 bug 牵扯到的地方，都可以使用同一个 TAG，然后在 Logcat 里设置 filter 为“BUG9371”，就可以非常清楚地了解代码的实际执行情况，提高修复问题的效率。搞定了 bug 之后，删除标有 RBF 标识的代码，所有临时的日志输出调用立马显形，逐一删除，确保代码能够成功编译，就可以着手提交了。</p>
 </div>
