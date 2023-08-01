@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    《巴赞论卓别林》摘要与心得 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>《巴赞论卓别林》摘要与心得</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>注：【】部分为笔者心得，非原文摘抄。</p>
+</blockquote>
+<ul>
+<li>一切物品的实用功能都是以人世的秩序为参照的，这个秩序本身就是实用、功利的，且包含着对未来的预见。</li>
+<li>当仇恨本身已经失去意义的时候，我们才能真正得到解脱。</li>
+<li>贪婪的欲望腐蚀了人类的灵魂，将世界裹挟在层层仇恨之中，只是我们大踏步地奔向苦难和血腥。我们提升了速度，但却成了速度的奴隶；机械化带来了极大的丰富，却也使我们心中物欲横流。科学使我们不顾廉耻，智力使我们变得铁石心肠。</li>
+<li>只要人们不畏牺牲，自由将永世不灭！</li>
+<li>方法和体系的规范一旦超过限度反而会将其创造者推入险境。</li>
+<li>即便是集体创作的作品，也只有当每一个作者的人格都在受众面前得到充分体现时，方才存在其价值。</li>
+<li>所有人都会成熟，他对生命的认识会日渐增长，他的创作自然会与他一同发生演变。</li>
+<li>天才本身就含有冒天下之大不韪的颠覆性元素。</li>
+<li>在排练每一场戏之前，卓别林都要亲自弹奏乐谱，以便能沉浸到这一场戏的音乐内容之中。</li>
+<li>没有观众，艺术家将是不完整的，观众给予或收回的青睐并不是附加于舞台人物的一个外物，相反，这种青睐就是舞台人物的一个组成部分。</li>
+<li>步入暮年后，尊严就成了头等大事。</li>
+<li>简单的生活，是一笔无上的财富，但深深打上艺术烙印的生活却是无论如何也不能捐弃的。</li>
+<li>很多名噪一时的小说或戏剧作品都已经被人遗忘，正是因为它们的意义仅仅停步于透露秘密或满足好奇心，但它们与那些有价值的作品的差距，就是后者在个人的苦难中牵动了人类的普遍境遇。</li>
+<li>电影的精髓：通过形象化而完成抽象化。</li>
+</ul>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

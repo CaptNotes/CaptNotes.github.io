@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    没什么技术含量的Remove Before Flight |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>没什么技术含量的Remove Before Flight</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>航空业有很多值得我们借鉴和学习的工作方式，将来有时间我会给大家引荐更多实例。</p>
+</blockquote>
+<p>仔细观察每架停泊着的飞机，会发现机身很多地方都挂着细长的红布条，上面写着“REMOVE BEFORE FLIGHT”，中文翻译成“飞行前拆除”。这种布条没什么技术含量，但是非常重要！</p>
+<p>比如，为了避免杂物或者昆虫进入皮托管，一般会给皮托管戴上套子，但是起飞前必须取下套子，否则飞行员就无法获得空速数据，从而导致事故。还有起落架安全插销，预防飞机在地面时起落架意外收起，但是忘记拔掉的话，起飞后就会因为无法收起起落架而被迫返航，虽然不至于坠毁，但是燃油损耗（包括可能需要进行空中放油）、折旧（比如轮胎、刹车的磨损）等，成本咂舌。</p>
+<p>在这些不起眼但又不能跟随飞机上天的部件上挂一根红布条，便是为了机务人员做航前检查时避免疏漏。</p>
+<p>触类旁通，这根小小的布条，对于程序员朋友们也很有实用价值。挂在冲锋衣上？挂在双肩包上？Stop，说正事儿！</p>
+<p>我们在调试代码的时候，常常会写死一些变量的值，比如 GPS 坐标、数据库查询条件、轮询时间间隔、版本号等等，这些定值方便了调试工作，但是就像皮托管套和起落架销子一样，是绝对不能随着软件更新发布出去的——严格地讲，甚至都禁止合并到主干代码。</p>
+<p>不幸的是，人是不可靠的。很多时候我们都会因为忘了将这些定值移除结果导致程序无法正常工作。其实都是些低级错误。</p>
+<p>分享一下我的做法，没啥技术含量，希望能给你带来些许启发。当然，也欢迎更好的建议！</p>
+<p>假设有一个定时刷新数据的功能，实际业务要求每 2 小时检查一次，时间间隔定义如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">long</span> <span class="variable">INTEVAL_DATA_RELOAD</span> <span class="operator">=</span> <span class="number">2</span> * <span class="number">3600</span> * <span class="number">1000</span>;</span><br></pre></td></tr></table></figure>
+
+<p>调试的时候，为了缩短等待时间，我们可以设为 5 秒一次。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">long</span> <span class="variable">INTEVAL_DATA_RELOAD</span> <span class="operator">=</span> <span class="number">5_000</span>;</span><br></pre></td></tr></table></figure>
+
+<p>于是这里就存在一个隐患，2 小时被缩短为 5 秒钟，代码本身没有问题，所以别人在审核这段代码的时候，除非对业务需求很了解，否则不大可能注意到 5 秒只是调试代码，不能提交到服务器更不能打包发布。</p>
+<p>我的惯用做法就是，同时保留两段代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">long</span> <span class="variable">INTEVAL_DATA_RELOAD</span> <span class="operator">=</span> <span class="number">5_000</span>;  <span class="comment">// <span class="doctag">TODO:</span> Remove before flight!</span></span><br><span class="line"><span class="comment">// private static final long INTEVAL_DATA_RELOAD = 2 * 3600 * 1000;</span></span><br></pre></td></tr></table></figure>
+
+<p>我会告诉我的同事，code review 的时候，任何带有“Remove before flight!”标记的代码，除非是注释掉的，否则都不能提交。并且我也鼓励他们使用同样的标记来标注代码。</p>
+<p>上面代码有个好处，使用快捷键，删一行、取消注释一行，两步操作迅速恢复原貌。</p>
+<p>所以我在提交代码前，会全文搜索“Remove before flight!”，然后逐一删除或注释掉。当然也可以从 TODO 框里直接定位，不过如果项目里还有很多其它 TODO 标记，那还是全文搜索比较保险。</p>
+<p>为了方便添加这个标记，我会使用代码模板功能，以 Android Studio 为例，在 Live Templates 里添加模板： <img src="http://captnotes.com/wp-content/uploads/2018/03/RBFSetting.png" alt="Remove Before Flight Template"></p>
+<p>这样就只需在要添加这个标记的位置输入“rbf”，然后一 Tab 就出来了。</p>
+<p>还有一种情况也会产生大量冗余代码。当我们在调试一个调用关系很深，尤其是存在大量回调的 bug 时，常常不得不靠输出很多日志来观察代码的实际运行情况。一方面，这些 Log 的输出可能是实际开发不需要的；另一方面，因为项目本身也存在很多日志，比较容易混在在一起。如下是我的习惯：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">TAG_BUG_9371</span> <span class="operator">=</span> <span class="string">&quot;BUG9371&quot;</span>;   <span class="comment">// <span class="doctag">TODO:</span> Remove before flight!</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">validate</span><span class="params">(String content)</span> &#123;</span><br><span class="line">    Log.d(TAG_BUG_9371, String.format(<span class="string">&quot;Validate content: %s&quot;</span>, content));</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>因为 TAG 是公开级别，所以在其它类、包里面，只要是这个 bug 牵扯到的地方，都可以使用同一个 TAG，然后在 Logcat 里设置 filter 为“BUG9371”，就可以非常清楚地了解代码的实际执行情况，提高修复问题的效率。搞定了 bug 之后，删除标有 RBF 标识的代码，所有临时的日志输出调用立马显形，逐一删除，确保代码能够成功编译，就可以着手提交了。</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

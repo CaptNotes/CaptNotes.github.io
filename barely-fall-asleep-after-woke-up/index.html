@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    一旦醒来，再难睡着 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>一旦醒来，再难睡着</p>
+    <hr />
+  </div>
+  <div class="post-content"><p>前阵子我经历过相同套路的几轮电信欺诈，由于不同团伙之间没有建立客户数据共享，所以造成了有的团伙已经碰了一鼻子灰，别的团伙又从头来过的尴尬局面。</p>
+<p>第一通电话是一个自称蚂蚁金服客服打来的：为配合国家禁止大学生参与网络借贷的新规，需要我删除账号中的教育信息。虽然我已毕业多年，还是半信半疑地进入一个钉钉视频群。一进群便知有诈，群里另外俩人，一个只有声音没有画面（以下简称‘声优’），另一个干脆连声音都没有。于是我关了摄像头，看看他们怎么玩儿。</p>
+<p>声优首先以核实手机设置为由，要我在电话拨号键盘上输入<code>**21*[电话号码]#</code>，然后查看微信的微粒贷。让我设置呼叫转移还则罢了，你个“蚂蚁金服”的人操心我微信干嘛？“对，然后我该怎么办？”我故意表现得有些着急又对他深信不疑。他说，由于我之前设置了教育信息，因此授信额度受到影响，现在要跟随他的操作指导，才能提高我的额度。其实套路就是把微粒贷里的钱全贷出来，转他卡上，然后他跑路，我乖乖还贷款。</p>
+<p>一开始我并不清楚他们的套路，只是破绽频现而心生怀疑。我跟他说需要先挂银行卡才能把钱转出来，他还略显不耐烦，一副“吃屎的嫌别人拉得慢”的样子。这时我根据几个关键字搜出了半年前的一篇报道，明白了具体套路，不得不说，<a target="_blank" rel="noopener" href="https://xue.baidu.com/okam/pages/strategy-tp/index?strategyId=140540811088072">无条件呼叫转移</a>这一步还是动了脑筋的。</p>
+<p>起先我是想看看他们具体怎么个玩儿法，清楚之后便失去了兴致：“不想跟你逗闷子了，自己找个地方玩儿去吧。”</p>
+<p>后来又有几拨骗子来撩我。第二拨我直接挑明，对方也就识趣地离开了。第三、四拨，我每次都以“正好有事，下下个周末再说”来搪塞。骗子还是很守时的，每次都按照约定准时来电，被我推了好几次之后才醒过味儿来，于是我也摊牌了：知道你们什么套路，这事儿没意思了。</p>
+<p>响鼓不用重锤，本文略去了不少斗智斗勇的细节，比如看到“蚂蚁金服注销部”工牌照片差点儿笑出声来、核实对方真实邮箱等等。事情过去一阵子了，但我时常在想：骗子之所以能得手，完全是因为对方不清楚他们的套路，只要信息透明，就很难再有人上当。</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

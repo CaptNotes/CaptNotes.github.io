@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    从引用质能方程想到的 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>从引用质能方程想到的</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>At regular intervals in the learning process, confidence should actually decrease as knowledge increases. That’s because a person’s confidence actually decreases slightly due to the sudden realization of what they don’t know. - Marc Chernoff</p>
+</blockquote>
+<p>小学五年级时，学校组织辩论赛，同组一个<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E9%A2%A4%E7%BF%8E%E5%AD%90">颤翎子</a>生硬地引用<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%B4%A8%E8%83%BD%E6%96%B9%E7%A8%8B/1884527">质能方程</a>来阐述“即使复杂如原子弹这类高精尖的玩意儿，背后的原理也是相当简单的”这一论点。原子弹是很多孩子自打记事起就耳熟能详的东西，质能方程倒是包括我在内很多同学头回听说的新概念，一时间奉若圭臬，走哪儿都不忘拿出来嘚瑟一番。</p>
+<p>现在想想，当时可真是好骗！为什么是$E&#x3D;mc^2$而不是$E&#x3D;m+c^2$或者$E&#x3D;m\div c^2$呢？万一那哥们儿一紧张，说成$E&#x3D;mc^3$了呢？到了高中开始学习质能方程，才发现原来“背后的原理”其实一点儿也不简单。要真正理解方程的推导过程——而不是仅仅满足于考试时套用对公式——那也是一番苦功夫！</p>
+<p>难怪人们常说“知识越多越不自信”。身处浩渺夜幕，仰望深邃星空，感知个体渺小，畅想无限可能……愈发觉得要为自己的无知与谬误保留可能的几率。</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

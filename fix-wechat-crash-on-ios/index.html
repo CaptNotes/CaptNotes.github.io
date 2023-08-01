@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    iOS微信卡死的正确解救姿势 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>iOS微信卡死的正确解救姿势</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>症状：打开微信直接卡死，滚动、点击……任何操作都无法响应。如果保持屏幕常亮，也不会有任何改变；如果等到屏幕自动熄灭再点亮并进入系统，这时微信已经被后台挂起，点击微信图标，应用界面打开后很快就会闪退，闪退前也无法响应任何操作。</p>
+</blockquote>
+<p>微信卡死就像牙疼一样，没遇到呢不觉得是个事儿，遇到了就得着急上火。尤其是有些聊天记录经常需要用到，又不能轻易卸载重装。</p>
+<p>其实卡死的情况之前也遇到过，但卡了会儿又莫名其妙好了，就没太在意。这回不同，十来次重启应用和系统都无法解决，电脑端微信登录请求也无法被手机端接收，也就无法及时处理微信消息和备份聊天记录。由于前几天刚清理过微信缓存，系统剩余空间也还很充裕，因此问题就变得削微有些棘手。</p>
+<p>从网络搜索来看，咨询类似问题的用户也不少，但是回复的解决办法一个比一个扯淡。扯淡主要是因为眼瞎又急于表现，比如人家都说了，卡得死死的，任何操作都做不了，还告诉人家点哪哪哪进入设置去清理缓存；或者已经说明了具体的 iPhone 型号（X 及以上），还用老掉牙的“Home+关机键”的办法来教别人如何强制重启…… GFYS!</p>
+<p>既然网上的办法靠不住，那还是自求多福吧。一顿骚操作之后，我无意中发现了<strong>解决办法： 1. 在手机桌面长按微信应用图标，弹出菜单； 2. 点击“收付款”、“扫一扫”或“我的二维码”其中任何一个来打开微信； 3. 微信启动后大概率会自行崩溃，不要紧，重复步骤 1 和 2； 4. 大概 4、5 次以后，不断地崩溃会触发微信自身的异常检测程序； 5. 点击下一步，直到询问是否清理缓存，选择清理缓存。</strong></p>
+<p>然后问题就解决了，接下来先赶紧全量备份微信聊天记录，以免哪天连上诉办法都解决不了卡死的问题。</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

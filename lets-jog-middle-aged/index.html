@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    奔跑吧，中年！ |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>奔跑吧，中年！</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>谨以此篇，献给懒惰的我。</p>
+</blockquote>
+<p>中年人的世界里没什么是容易的，除了长胖和郁闷。</p>
+<p>很多人都参与了一场赌局，你赌健身房不跑路，健身房赌你不跑步。我以前也办过年卡，去了四、五次，过了新鲜期就不去了。理由有很多，懒字头一个。不过我确实不喜欢健身房给人一种空气不流通的心理暗示。</p>
+<p>从去年开始，我渐渐地对户外跑步产生了兴趣。其实是双赢的，户外跑步收获了一个新的小粉丝，我通过户外跑成功甩掉了近 30 斤肥油。</p>
+<p>今年还在坚持跑，只是又明显开始犯懒了，所以写点儿文字，鞭策一下自己，希望自己还是要脸的。</p>
+<p>相比健身房，户外跑的最大好处是放飞心灵的感觉。可以根据实际情况，不停地变换跑步场景，一会儿奔跑在园区里、一会儿奔跑在山野间、一会儿奔跑在小河边……也不是都没有可能。</p>
+<p>其实我就比较喜欢在近郊跑步，只听见虫鸣鸟叫和树叶沙沙的声音，这种场景，即使不跑步，对身心也是一种极好的调养。如果是清晨去，那就更完美了！山林河流边的鸟语花香能够很好地排遣运动时的枯燥，当然也可以听听音乐，不过一定要听点儿什么的话，我更愿意选择平时没时间听的音频栏目。</p>
+<p>对于久居职场的中年人来说，不论是劳心者还是劳力之人，周身上下的零件多多少少都会有一些状况。然而由于工作的节奏、生活的压力、家庭的因素……真的很少有人能严格按照“健康的方式”去生活，因为我们已经把自己每天绝大部分的有效时间和精力都卖了，要不然连双像样的跑鞋都买不起。</p>
+<p>由此看来，跑步的确是一项成本低、见效快的一项健康投资。而且我相信，在过去至少 300 万年的进化历程里，奔跑始终都是人类生活的一项重要组成部分，直到近几十年来汽车开始普及。30 年的突飞猛进，终究还是要顺应着点儿 300 万年的水滴石穿，对吧？</p>
+<p>我还是个初级入门跑者，所以我不是要给谁什么意见或者建议。我想说的无非就是：跑步也许不会让你财务自由，但是不跑的话，被人问到“你瞅啥”的时候，咋整哩？</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

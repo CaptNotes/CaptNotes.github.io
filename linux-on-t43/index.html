@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    ThinkPad T43续命记 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>ThinkPad T43续命记</p>
+    <hr />
+  </div>
+  <div class="post-content"><p>最近有部叫《黑客军团》（Mr. Robot）的戏比较火。目前第二季已经出到一大半了，深得技术宅和技术宅仰慕者们的喜爱。男主用的是 Kali Linux，这个发行版主要面向专业的网络安全和渗透测试，其实我也是看第一季的时候才知道 Kali，就不瞎白活了，感兴趣的话可以<a target="_blank" rel="noopener" href="https://www.kali.org/about-us/" title="About Kali Linux">自行打探</a>。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * 我不太喜欢这部戏，也用不上Kali，所以它俩跟我要做的事其实都没啥直接关系。</span></span><br><span class="line"><span class="comment">  *</span></span><br><span class="line"><span class="comment">  * 开篇随口一提，无非是为了让我要说的事不显得那么枯燥——这年头说话太正经没人搭理你。</span></span><br><span class="line"><span class="comment">  */</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="http://captnotes.com/wp-content/uploads/2019/11/linux_on_t43_illustration_02.jpg" alt="ThinkPad T43"> <strong><em>ThinkPad T43</em></strong></p>
+<p>我有台 T43。对，就上面这台。挺老了，有多老呢？这张照片是 2009 年 8 月 22 号拍的，当时它将近 3 岁，我还是鲜肉的时节。</p>
+<p>机器配置是 Intel 奔腾 M 2GHz、2G DDR2 内存、ATI RV370 显卡、分辨率 1400×1050、支持蓝牙，还有个当年飙升逼格的指纹识别。这个配置在当初来说还算拉风，关键是它还陪我走过一段“辉煌”的历史——微软 MVP 标识至今贴在机身上——所以一直舍不得扔。受 Kindle 的启发，打算找个轻量级 Linux 桌面发行版来让它继续发挥余热。试来试去，目前来看 Lubuntu 效果最理想。这个发行版是台湾一位叫洪任谕的程序员主导开发的，访问它的官网还得科学上网（可能同胞不小心把网站 host 在了敌对势力的 server 上了吧），呵呵，也可以从<a target="_blank" rel="noopener" href="https://help.ubuntu.com/community/Lubuntu/GetLubuntu#Lubuntu_LTS" title="Get Lubuntu LTS">Ubuntu 的网站上</a>获取安装镜像。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 闲嗑不多唠了，上点儿干货，以飨观众。</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * 也许你只是想看看热闹，也许你家里也有台闲置又舍不得抛弃的老电脑，或许下面的内容可以</span></span><br><span class="line"><span class="comment"> * 给你一点儿灵感。</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="http://captnotes.com/wp-content/uploads/2019/11/linux_on_t43_illustration_03.jpg"></p>
+<p>先下载 Lubuntu 最新稳定版（V16.04.1 LTS），用 Win32 Disk Imager 写到 U 盘上，然后重启 T43，并隆重地选择开机 U 盘启动。</p>
+<p><img src="http://captnotes.com/wp-content/uploads/2019/11/linux_on_t43_illustration_04.png" alt="32位版本不提供GUI安装界面和光盘试用方式"> <strong><em>32 位版本不提供 GUI 安装界面和光盘试用方式</em></strong></p>
+<p>人穷志短，我装的是 32 位版本，安装引导界面跟 64 位发行版相比略显“专业”一点儿，其实步骤都是那些步骤，如果你是技术宅应该就没什么问题；如果你是技术宅仰慕者也不用担心，选择简体中文，然后下一步、下一步……，网络不好设置就跳过，装完之后直接到桌面环境去选你家 WiFi 就 OK。条件允许的话最好还是别学我，走正道装 64 位哪点不好呢。</p>
+<p><img src="http://captnotes.com/wp-content/uploads/2019/11/linux_on_t43_illustration_05.png"></p>
+<p>趁系统安装这会儿功夫扯几句闲篇儿。要说现在这些桌面级 Linux 发行版，安装过程还真未必能难倒几个小白，跟 Windows 的八九不离十，无非就是选择分区的时候有点儿唬人，小心一点儿也没有过不去的坎儿。我这台 T43 没啥要备份的资料，也不打算安装别的系统，所以直接让它占用整个硬盘，倒也省事儿。</p>
+<p>最早接触 Linux 是在 03 年，不记得用的第一款是什么发行版了，第一个印象比较好的是 Mandrake，也用过 Red Hat、SuSE……那会儿还在读书，本着没事儿瞎折腾的学习态度，电脑里经常会保留一点儿空间给 Linux。那个年代，Linux 阵营动不动就嚷嚷要瓜分 Windows 的桌面市场份额，时不时的也会有些比较骚气的极客发点儿帖子教导大家“弃暗投明”。我一般是骂骂咧咧地体验一阵儿，然后又回到 Windows 的怀抱，过阵子再骂骂咧咧地体验一阵儿。现如今，俩阵营的嘴仗渐渐少了，极客们也玩儿别的去了，风向变成了“苹果面前谁也别嘚瑟”，纳德拉还喊出了“微软爱 Linux”这么矫情的口号……还真别说，Linux 桌面版反而变得漂亮又好用了！</p>
+<p><img src="http://captnotes.com/wp-content/uploads/2019/11/linux_on_t43_illustration_06.png"></p>
+<p>安装完成并重启之后，上前一步进到系统中来，果然轻量级。Lubuntu 使用的是<a target="_blank" rel="noopener" href="http://lxde.org/zh-tw/lxde/" title="Lightweight X11 Desktop Environment">LXDE 桌面系统</a>（对哦，Lubuntu ＝ LXDE ＋ Ubuntu），给人的第一印象不仅不难看，反而有些返璞归真的感觉，不过审美是件很主观的事，萝卜白菜各有所爱。我个人觉得界面风格比较清新简洁，但总觉得字体很是彪悍，赶紧在开始菜单 → 首选项 → 自定义外观和体验、桌面偏好设置里面把所有字体大小从 11 降到 9，一下子感觉呼吸顺畅了许多。终端也要调整，不仅要调整字体大小，还要换成 Hack 字体、隐藏菜单栏、滚动条、光标闪烁、背景透明度降到 200，再换成《黑客军团》男主那呆滞木讷的眼神，这样才显得俺们像个黑客。</p>
+<p><img src="http://captnotes.com/wp-content/uploads/2019/11/linux_on_t43_illustration_07.png"></p>
+<p>这样是不是感觉舒服多了？你还可以根据自己的喜好继续折腾样式，不过咱还得继续往下走。</p>
+<p>首先，Linux 也会“捆绑”很多软件，不过捆得不死，用户可以很方便地卸载掉自己不需要的预装软件，比如 Lubuntu 预装的 AbiWord、Gnumeric、Pidgin Internet Messager、Simple Scan……因人而异，用不上又看着碍眼的，推荐在终端里面使用 apt 命令卸载掉（也可以用 apt-get，不过现在推荐使用前者了），因为每个人的需求不一样，我在这里只是简单介绍一下使用方式，就不具体给出卸载列表了，以免误伤。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo su</span><br><span class="line">apt remove -y abiword</span><br></pre></td></tr></table></figure>
+
+<p>打开终端（开始菜单 → 系统工具 →LX 终端。右键菜单可选择将它放到桌面，地址栏里配置应用程序启动条也可以添加它的快捷方式），首先输入 sudo su 并回车，正确输入当前账户密码后即获得 root 权限，否则无法使用 apt 命令。然后输入 apt remove -y abiword 并回车，这一行的意思是使用 apt 包管理工具卸载掉 abiword，参数-y 表示用户已经确认可直接执行操作，否则 apt 检测到 abiword 确实存在的时候会停下来等待用户输入 y 才会开始卸载。之所以把-y 放在 abiword 前面，无非是为了方便后面卸载别的应用，你可以直接按上箭头调出上一次操作的命令，删掉末尾的 abiword，输入另一个需要卸载的应用名直接回车。当然，如果你头脑清晰，很明确自己要卸载哪些软件的话，也可以全部列在-y 后面，用空格隔开就好，比如：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt remove -y abiword xpad simple-scan</span><br></pre></td></tr></table></figure>
+
+<p>有的软件的包名和你在桌面上看到的名字不一样，就像刚刚我们要卸载的 Simple Scan，你以为它叫 simplescan，其实它叫 simple-scan。像这种情况拿不准怎么办？好办，用下面这行命令来查找实际包名：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt list --installed *simple*</span><br></pre></td></tr></table></figure>
+
+<p>这行命令是列出已安装的软件包中包名包含 simple 的软件，在前面也加通配符是因为有些包是以 gnome-或者别的什么前缀开头，你不加就查不到，防不胜防。</p>
+<p>关于 apt 的具体使用方式，不妨用 apt -h 来查看说明文档，看不懂可以找找中文帖子，这里不细讲太多，再啰嗦两句： 1. 删了一些软件后可以用下面这行命令来回收一些硬盘空间：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt autoremove -y; apt clean; apt autoclean</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>安装一些软件后还需要时不时地升下级：</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt update; apt dist-upgrade -y</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>如果你在 VirtualBox 里面跑 Lubuntu，安装 Guest Additions 时出错，多半是因为你没有安装 npm：</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install -y npm</span><br></pre></td></tr></table></figure>
+
+<p>如果你明确知道自己要安装&#x2F;卸载什么软件的话，apt 比“软件中心”那破玩意儿好用得多！</p>
+<p>接下来列举几个软件，不用 apt，直接到它们的官网上下载安装包就行，其余的你们自己看着办吧。 1. <a target="_blank" rel="noopener" href="http://music.163.com/#/download">网易云音乐</a>（业界良心）； 2. <a target="_blank" rel="noopener" href="http://pinyin.sogou.com/linux/?r=pinyin">搜狗拼音</a>（可惜还不能同步账户内容）； * 记着在开始菜单 → 首选项 → 语言支持中将“键盘输入法系统”改为 fcitx； 3. <a target="_blank" rel="noopener" href="https://code.visualstudio.com/c?utm_expid=101350005-27.GqBWbOBuSRqlazQC_nNSRg.2">Visual Studio Code</a>（比记事本启动慢，非必需）； * 写代码的话用得上，也可以考虑<a target="_blank" rel="noopener" href="https://atom.io/">ATOM</a>或者<a target="_blank" rel="noopener" href="http://www.sublimetext.com/3">Sublime Text</a>； 4. <a target="_blank" rel="noopener" href="http://linux.wps.cn/">WPS</a>（如果需要处理点儿 Word 文档之类的）。</p>
+<p>Lubuntu 预装 Firefox 浏览器，登录账户后可同步书签、密码啥的，很方便。现在你还在用的网站一般都忍辱负重地解决了各浏览器之间的兼容性问题，用一个 Tab 页打开<a target="_blank" rel="noopener" href="https://wx.qq.com/">微信网页版</a>并将这个 Tab 页 Pin 起来，HTML5 支持桌面提醒，所以你也可以很方便地使用微信，<a target="_blank" rel="noopener" href="http://w.qq.com/">Web QQ</a>同理。</p>
+<p>假如你对游戏不死心，可以安装 Steam、PlayOnLinux 或 Ubuntu GamePack。如果我没理解错的话，它们都是用 Wine 来跑 Windows 游戏软件。我不喜欢 Wine，T43 也跑不动像样的游戏，所以你们自己折腾吧。</p>
+<p>在 Linux 上安装 Java 运行环境稍稍麻烦一点点，需要下面三行命令。常在河边走，哪能不湿脚，不管你喜欢不喜欢，反正用一阵儿 Linux 你总会遇到需要 Java 的时候。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">add-apt-repository ppa:webupd8team/java</span><br><span class="line">apt-get update</span><br><span class="line">apt-get install oracle-java8-installer</span><br></pre></td></tr></table></figure>
+
+<p>处理图片的话，推荐使用 GIMP Image Editor，跟 Paint.NET 差不多，不知道有没有 PhotoShop 专业，这方面我不懂我闭嘴。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install -y gimp</span><br></pre></td></tr></table></figure>
+
+<p>基本上就这些，配置完也够你玩一阵儿的了。还有个稍稍有点儿门槛的就是，还记得前面我提到过“微软爱 Linux”的口号么？假如你是 OneDrive 用户的话，不好意思，微软不提供 Linux 客户端，你需要去 GitHub 下载安装<a target="_blank" rel="noopener" href="https://github.com/xybu/onedrive-d-old">onedrive-d</a>才能同步你的文件。安装好后可以在开始菜单 →LXSession 默认应用程序 → 自动启动中添加 onedrive-d start，这样每次启动系统后都可以自动同步 OneDrive 文件夹里面的内容了。</p>
+<p><img src="http://captnotes.com/wp-content/uploads/2019/11/linux_on_t43_illustration_08.png"></p>
+<p>差点儿忘了，Flash Player 要通过开始菜单 → 系统工具 → 新立得软件包管理器来安装。打开管理器，搜索 flashplayer，结果中应该会出现 flashplugin-nonfree-extrasound，右键选择“标记以便安装”菜单项，点击“应用”，然后上个优酷看个视频啥的问题不大。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">或者：</span></span><br><span class="line">apt install -y flashplugin-nonfree-extrasound</span><br></pre></td></tr></table></figure>
+
+<p>T43 用的是单核处理器，再加上机械硬盘、内存不够大、只支持 32 位系统，年久老化，现在跑 Firefox 略显吃力（主要是我已经被自己的主力机惯坏了），如果你的配置稍稍好点儿 ，我推荐 Xubuntu，再好一些的话还可以考虑 Ubuntu Mate 或者 Linut Mint 等等。性能越好，可以选择的范围越大，但有时候太多可选也未必是好事。</p>
+<p>写这篇碎碎念的主要目的就是分（xuān）享（xiè）。如果你是熟悉 Linux 的老鸟，那咱以文会友；如果你是蠢蠢欲动的新手，希望能对你有所帮助或启发。Lubuntu 本身还存在一些问题，比如回收站右键菜单没有“清空”项、fcitx 用户设置保存不住、图片文件右键菜单不支持直接设为桌面背景等等，但是在轻量级桌面这方面做得还是很不错的，存在这样的改进空间完全可以接受。</p>
+<p>天已经开始亮了，就说这么多吧，明天——哦不，今天——起来之后校正几遍再发。对了，这篇文章我就是在 Lubuntu 上写的。</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

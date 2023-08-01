@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    嬉 - 创业十忌 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>嬉 - 创业十忌</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>嬉：业精于勤，荒于嬉；行成于思，毁于随。——《进学解》唐·韩愈</p>
+</blockquote>
+<p>不必贬低一个失败的人，只要他真的努力过，毕竟现实世界不是努力就一定有好结果。</p>
+<p>但有一种人则属于表演型奋斗者，比如办公室摆着很多书，却时常要么翘着二郎腿玩游戏、要么邀一群人来吹牛聊天。</p>
+<p>曾经风光无两的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%BD%91%E9%99%85%E5%BF%AB%E8%BD%A6">网际快车</a>之所以日暮途穷，就是因为创始人沉迷于游戏不能自拔。游戏不是洪水猛兽，但是过度沉浸于某件事而耽误了主业，这个后果还得自己来承担。</p>
+<p>我不推崇苦行僧式的的奋斗。奋斗的历程一定是艰苦的，但不是越苦越容易出成绩。虽然艰苦和成功往往如影随形，但其实并没有一个可以量化的标准比例。所以不必迷信艰苦，更不要歌颂苦难，不如把精力和脑力用在如何提高效率、锁定正确目标上。</p>
+<p>我也不是排斥娱乐，谁不喜欢玩儿呢，毕竟是人类的天性。但放松调节和玩物丧志完全是两回事。长期处于紧张状态容易让人变得悲观和疲倦，适当的娱乐能够重拾乐观与自信。而且大脑的放松还有助于找到之前苦寻不得的答案。其实我就遇到过几次，在经历一段长时间的工作后，卡在某个问题上总是找不到好的办法，实在烦了就去干点儿别的，却很快就像是顿悟了一样，脑子里冒出了解决方案。</p>
+<p>所谓“老虎赶路，不追小兔”，而有些“老虎”却专干追猫撵狗的事儿，还假装自己很勤奋很用功，一副天道必然酬勤的架势，本质上不过是在吃老本罢了。</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

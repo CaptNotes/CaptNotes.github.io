@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    《团队协作的五大障碍》摘要与心得 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>《团队协作的五大障碍》摘要与心得</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>注：【】部分为笔者心得，非原文摘抄。</p>
+</blockquote>
+<ul>
+<li>【执行力是团队能否成功的关键。】</li>
+<li>企业最根本的竞争优势既不是来自资本实力、发展战略，也不是来自技术，而是来自它的团队。</li>
+<li>克服团队成员行为过度自由化的组织才【有可】能获得成功。</li>
+<li>【在公司处于困境时敢于挺身而出的人，应予以重用。】</li>
+<li>【缺乏商业头脑和多元化思维能力的人领导不了软件公司，准确地说，领导不了任何公司。】</li>
+<li>【过多、过长的会议通常解决不了任何问题。】</li>
+<li>【公司从初创时就应该尽可能地像卓越的公司那样规范、专业。】</li>
+<li>【团队中拒绝“受害者思想”，有本事就秀出来！】</li>
+<li>【团队中应该杜绝心态严重失衡的人。】</li>
+<li>【创业者需要有狙击手的耐心、果敢、敏锐和刚毅。】</li>
+<li>【团队内部除了压力，还应该时刻存在适当的生存危机感。】</li>
+<li>【业绩是衡量团队战斗力的唯一标准。】</li>
+<li>【缺乏争论不是好事。】</li>
+<li>【团队的最高领导者一定要具备鲜明的个人魅力。】</li>
+<li>团队协作由建立信任开始，唯一的办法就是消除戒心。</li>
+<li>剥离冗余信息，直接深入问题内部，就能节省很多时间。</li>
+<li>【重视细节，但不要被细枝末节所困。】</li>
+<li>尽可能组织最好的团队，而不是培养单个队员。</li>
+<li>把注意力集中到集体目标而不是获取个人认同。</li>
+<li>如果我们找不到赚钱的办法，那么控制成本又有什么用？</li>
+<li>不要随便指责一个不在场的同事。</li>
+<li>【再安全、先进的游轮，也需要配备救生艇。】</li>
+<li>【优秀的团队成员】应该能够信任别人，正确处理矛盾，参与集体决策，对同事负责，把精力放在团队的成绩而不是个人表现上。</li>
+<li>信任是高效、团结一致队伍的核心。</li>
+<li>团队取得成功正是因为它是由不完美的人组成的。</li>
+<li>团队协作的五大障碍：1，缺乏信任；2，惧怕冲突；3，欠缺投入；4，逃避责任；5，无视结果。</li>
+</ul>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

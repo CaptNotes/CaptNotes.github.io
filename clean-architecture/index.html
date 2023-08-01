@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    《架构整洁之道》摘要与心得 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>《架构整洁之道》摘要与心得</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>注：【】部分为笔者心得，非原文摘抄。</p>
+</blockquote>
+<ul>
+<li><p>软件架构的终极目标是，用最小的人力成本来满足构建和维护该系统的需求。</p>
+</li>
+<li><p>软件架构的优劣，可以用它满足用户需求所需要的成本来衡量。</p>
+</li>
+<li><p>要想跑得快，先要跑得稳。</p>
+</li>
+<li><p>软件系统必须保持灵活。</p>
+</li>
+<li><p>需求变更的范畴与形状，是决定对应软件变更实施成本高低的关键。</p>
+</li>
+<li><p>平衡系统架构的重要性与功能的紧急程度，是软件研发人员的职责。</p>
+</li>
+<li><p>结构化编程对程序控制权的直接转移进行了限制和规范；面向对象编程对程序控制权的间接转移进行了限制和规范；函数式编程对程序中的赋值进行了限制和规范。</p>
+</li>
+<li><p>科学方法论不需要证明某条结论是正确的，只需要想办法证明它是错误的。</p>
+</li>
+<li><p>测试只能展现 Bug 的存在，并不能证明不存在 Bug。—— Edsger W. Dijkstra</p>
+</li>
+<li><p>测试的作用是让我们得出某段程序已经足够实现当前目标这一结论。</p>
+</li>
+<li><p>对于架构师来说，面向对象编程就是以多态为手段来对源代码中的依赖关系进行控制的能力，这种能力让架构师可以构建出某种插件式架构，让高层策略性组件与低层实现性组件分离，低层组件可以编译成插件，实现独立于高层组件的开发和部署。</p>
+</li>
+<li><p>所有的竞争问题、死锁问题、并发更新问题都是由可变变量导致的。</p>
+</li>
+<li><p>架构设计良好的应用软件应该将状态修改的部分和不需要修改状态的部分隔离成单独的组件，然后用合适的机制来保护可变量。</p>
+</li>
+<li><p>架构师应该着力于将大部分处理逻辑都归于不可变组件中，可变状态组件的逻辑应该越少越好。</p>
+</li>
+<li><p>程序无一例外是由顺序结构、分支结构、循环结构和间接转移这几种行为组合而成的，无可增加，也缺一不可。</p>
+</li>
+<li><p>一般情况下，我们为软件构建中层结构的主要目标有：</p>
+<ul>
+<li>使软件可容忍被改动；</li>
+<li>使软件更容易被理解；</li>
+<li>构建可在多个软件系统中复用的组件。</li>
+</ul>
+</li>
+<li><p>SOLID 原则</p>
+<ul>
+<li>SRP（Single-responsibility Principle，单一职责原则）：任何一个软件模块都应该只对某一类行为者负责；</li>
+<li>OCP（Open-closed Principle，开闭原则）：系统设计必须允许新增代码修改系统行为，而非只能靠修改原有代码；</li>
+<li>LSP（Liskov Subsitution Principle，里氏替换原则）：组件必须遵守同一约定，一边这些组件可以相互替换；</li>
+<li>ISP（Interface Segregation Principle，接口隔离原则）：在设计中避免不必要的依赖；</li>
+<li>DIP（Dependency Inversion Principle，依赖反转原则）：高层策略性的代码不应该依赖实现底层细节的代码，而实现底层细节的代码应该依赖高层策略性代码。</li>
+</ul>
+</li>
+<li><p>在一般情况下，任何层次的软件设计如果依赖于不需要的东西，都会是有害的。</p>
+</li>
+<li><p>应在代码中多使用抽象接口，尽量避免使用那些多变的具体实现类。</p>
+</li>
+<li><p>不要在具体实现类上创建衍生类。</p>
+</li>
+<li><p>不要覆盖（override）包含具体实现的函数。</p>
+</li>
+<li><p>应避免在代码中写入与任何具体实现相关的名字，或者是其它容易变动的事物的名字。</p>
+</li>
+<li><p>源代码的依赖方向永远是控制流方向的反转，这是 DIP 被称为依赖反转原则的原因。。</p>
+</li>
+<li><p>组件是软件的部署单元，是整个软件系统在部署过程中可以独立完成部署的最小实体。</p>
+</li>
+<li><p>与构建组件相关的三个基本原则：</p>
+<ol>
+<li>REP（Release Reuse Equivalence Principle，复用&#x2F;发布等同原则）：软件复用的最小粒度应等同于其发布的最小粒度；</li>
+<li>CCP（Common Closure Principle，共同闭包原则）：将那些会同时修改，并且为相同目的而修改的类放到同一个组件中，而将不会同时修改，并且不会为了相同目的而修改的那些类放到不同的组件中；</li>
+<li>CRP（Composite Reuse Principle，共同复用原则）：将经常共同复用的类和模块放在同一个组建中。</li>
+</ol>
+</li>
+<li><p>对大部分应用程序来说，可维护性的重要性要远远高于可复用性。</p>
+</li>
+<li><p>组件依赖关系图中不应该出现环。</p>
+</li>
+<li><p>组件结构图中的一个重要目标是指导如何隔离频繁的变更。</p>
+</li>
+<li><p>依赖关系必须要指向更稳定的方向。</p>
+</li>
+<li><p>组件的抽象化程度应该与其稳定性保持一致。</p>
+</li>
+<li><p>绝对不要听从那些说应该让架构师从代码中解放出来以专心解决高阶问题的伪建议。</p>
+</li>
+<li><p>软件架构设计最高优先级目标就是保持系统正常工作。</p>
+</li>
+<li><p>基本上，所有的软件系统都可以降解为策略与细节这两种主要元素。策略体现的是软件中所有的业务规则与操作过程，因此它是系统真正的价值所在。细节则是指那些让操作该系统的人、其它系统以及程序员们与策略进行交互，但是又不会影响到策略本身的行为。</p>
+</li>
+<li><p>优秀的策略应该允许系统尽可能地推迟与实现细节相关的决策，越晚最决策越好。</p>
+</li>
+<li><p>设计良好的软件架构必须支持以下几点：</p>
+<ul>
+<li>系统的用例与正常运行；</li>
+<li>系统的维护；</li>
+<li>系统的开发；</li>
+<li>系统的部署。</li>
+</ul>
+</li>
+<li><p>康威定律：任何一个组织在设计系统时，往往都会复制出一个与该组织内沟通结构相同的系统。</p>
+</li>
+<li><p>设计良好的软件架构可以让系统在构建完成后立刻就能部署。</p>
+</li>
+<li><p>设计良好的架构应该通过保留可选项的方式，让系统在任何情况下都能方便地做出必要的变更。</p>
+</li>
+<li><p>软件架构设计本身就是一门划分边界的艺术。</p>
+</li>
+<li><p>通过将策略隔离，并让源代码中的依赖方向都统一调整为指向高层策略，可以大幅降低系统变更所带来的影响。</p>
+</li>
+<li><p>用例本质上就是关于如何操作一个自动化系统的描述，它定义了用户需要提供的输入数据、用户应该得到的输出信息以及产生输出所应该采取的处理步骤。</p>
+</li>
+<li><p>用例控制着业务实体之间的交互方式。</p>
+</li>
+<li><p>用例并不描述系统与用户之间的接口，它只描述该应用在某些特定情景下的业务逻辑，这些业务逻辑所规范的是用户与业务实体之间的交互方式，它与数据流入&#x2F;流出系统的方式无关。</p>
+</li>
+<li><p>业务逻辑应该保持纯净，不要掺杂用户界面或者所使用的数据库相关的东西。在理想情况下，这部分代表业务逻辑的代码应该是整个系统的核心，其它低层概念的实现应该以插件形式接入系统中。业务逻辑应该是系统中最独立、复用性最高的代码。</p>
+</li>
+<li><p>良好的架构设计应该只关注用例，并能将它们与其它的周边因素隔离开。</p>
+</li>
+<li><p>不应该将未来的需求抽象化。</p>
+</li>
+<li><p>任何形式的共享数据行为都会导致强耦合。</p>
+</li>
+<li><p>虽然软件质量本身并不会随时间推移而损耗，但是未妥善管理的硬件依赖和固件依赖却是软件的头号杀手。</p>
+</li>
+<li><p>如果一个系统的代码只能在目标硬件上测试，那么它的开发过程会变得非常艰难。</p>
+</li>
+<li><p>可以使用框架，但要时刻警惕，别被它拖住。</p>
+</li>
+</ul>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    《本能：为什么我们管不住自己？》摘要与心得 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>《本能：为什么我们管不住自己？》摘要与心得</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>注：【】部分为笔者心得，非原文摘抄。</p>
+</blockquote>
+<ul>
+<li>我们不是呆头呆脑，注定只会执行自我基因程序的机器人。</li>
+<li>最有效的储蓄机制之一是把钱藏起来。</li>
+<li>大脑总是根据昨天的游戏规则行动，所以我们很容易上当。</li>
+<li>我们通常对未来的行为总是过度乐观。</li>
+<li>在做每一个决定时，我们都必须压制内在的反应，并利用习得的金融手段来做出最佳选择。</li>
+<li>了解我们的弱点可以降低失败的概率，并且防止在最软弱的时候造成损失。</li>
+<li>【不可纵容本能欲望。】</li>
+<li>大脑必须通过神经系统的信号才能了解我们的行为，而任何信号系统都可以操控。</li>
+<li>咖啡因能起作用就是因为它和腺苷很相似。</li>
+<li>麻醉剂通常会模仿我们身体在正常运转中产生的化学物质。只要我们知道麻醉剂所模仿的分子是什么，其特定效果就是可以预测的。</li>
+<li>【明知会痛苦，何必要开始？】</li>
+<li>我们无法控制对麻醉剂的激情，其根源不在于人格缺失，而是由于欲望的强大。</li>
+<li>我们就是那些离开洞穴、冒险成功的人们的后代。</li>
+<li>人类在许多风险上的判断失误都有一个共同的原因：我们生活的世界和祖先们的世界已经大不相同了。</li>
+<li>人们不关心概率，只在乎奖金。</li>
+<li>控制住自己的关键在于预先采取措施来制约体内的赌棍。</li>
+<li>深刻而长久的幸福感并非来自物质状况的变化。</li>
+<li>占有物质的欲望是人类的通病。</li>
+<li>当我放眼未来，我看到了更多的可能性，而不是局限性。——克里斯托弗·里夫</li>
+<li>生活的变化带来的强大而短暂的影响或微小但长期的影响，这二者之间的对比形成了人之为人的主要矛盾之一。</li>
+<li>无论是通过目标的实现，还是因遭挫折而失败，在获得满足感的游戏中，我们永远不是胜者。</li>
+<li>我们偏爱的是有积极结局的经历。</li>
+<li>幸福与不幸是基因用来促进其目标实现的工具。</li>
+<li>只要基因的利益不能完美协调，冲突就不可避免。</li>
+<li>伴随着高密度人群出现的是各方对有限资源的争夺，而争夺带来的就是冲突。</li>
+<li>要保持有效的关系，关键之一在于保持利益的均衡。</li>
+<li>合作是建立在相互的实力之上的。</li>
+<li>合作需要的是关心、培育以及未来。</li>
+<li>自我了解加上自我约束能帮助我们找到制胜之法。</li>
+</ul>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

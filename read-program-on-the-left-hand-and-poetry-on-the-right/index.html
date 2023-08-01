@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    读《左手程序右手诗》 |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>读《左手程序右手诗》</p>
+    <hr />
+  </div>
+  <div class="post-content"><p>难得近日拾得闲暇来赏读<a target="_blank" rel="noopener" href="http://boolan.com/jjhou">侯捷</a>老师文集<a target="_blank" rel="noopener" href="https://boolan.com/lecture/1000001218">《左手程序右手诗》</a>。虽然从来无缘 C++、MFC、STL 或 COM 相关开发，但无妨我对侯捷老师在技术著&amp;译作领域成就的尊崇。一言以蔽之，侯捷老师的作品，也就随笔杂文我能看懂。</p>
+<p>我一向更容易对会写作的程序员心生好感。有趣的技术固然令人沉醉，但抛开技术不谈人生又终觉乏味。编码之余还有闲心碎念几句，宛如拉小提琴的爱因斯坦，一扫生冷木讷，更显平易亲和。所以遇到一些同行写的随笔，我常常会饶有兴致地拜读一番。而在技术圈层里，能够长期笔耕不辍进而沉淀丰厚优秀文字者，恕我直言，凤毛麟角。</p>
+<p>IT 是个日新月异的行业，新的技术、新的框架、新的风口、新的概念……层出不穷。波涛中乌泱泱尽是弄潮儿，但能否哪怕一次得以翻腾浪尖，不仅要靠平时的定力与刻苦，更要凭借大量幸运的因素。可想而知，如此氛围中还能数十载孜孜耕耘，潜心记录观察、思考以及心得，实属难能可贵！</p>
+<p>从时效来讲，这本文集基本都是些二十年前的旧文，现实早已时过境迁，但深刻的洞见经得起时间的考验。虽说新的技术时刻都在涌现，但仔细观瞧，不过是相同擂台上各家不尽相同的把式而已。问题还是那些问题，变换的往往只是解决问题的手段罢了，所以感觉越来越明显：很多编程语言看上去愈渐相似、许多框架背后的理念越发相通。</p>
+<p>如今已是全民短视频的时代，文字似乎日渐式微。就好比，我全靠短视频来学着做饭炒菜，哪有耐心去翻阅食谱外加领悟。但我也相信，视频有视频的优势，文字有文字的力量。</p>
+<p>所以，我也想借用侯捷老师引用<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%83%A1%E9%80%82/119246">胡适</a>先生的那句话来作个总结：发表是最好的记忆。</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

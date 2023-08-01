@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    纪念左耳朵耗子（陈皓） |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>纪念左耳朵耗子（陈皓）</p>
+    <hr />
+  </div>
+  <div class="post-content"><p>刚刚看到一条消息，非常突然！</p>
+<p><a href="https://captnotes.com/wp-content/uploads/2023/05/wp_editor_md_a61b72ef57f6a3b3e3292a3300d09df7.jpg"><img src="https://captnotes.com/wp-content/uploads/2023/05/wp_editor_md_a61b72ef57f6a3b3e3292a3300d09df7.jpg"></a></p>
+<p>就在几天前的 5 月 10 号，耗哥和我还在微信上聊了四十多分钟视频，没想到 13 号晚上人就没了。刚看到这个消息，以为是在恶搞，但是冷静下来一番查证，基本属实了。</p>
+<p>5 月 8 号，我读了他最新发表的<a target="_blank" rel="noopener" href="https://coolshell.cn/articles/22422.html">《是微服务架构不香还是云不香》</a>，通过邮件联系了他，毕竟 Serverless 也是我现在特别关注的领域。他回复约我视频沟通，这才有了 10 号的机缘。</p>
+<p>我看到技术圈中一些他生前的朋友纷纷惋惜，也有懊悔拖延了与他见面的。我很庆幸当时读了文章有想法就立即实施，而没有拖着“过阵子再说”，要不然也没有“以后”了。</p>
+<p><a href="https://captnotes.com/wp-content/uploads/2023/05/wp_editor_md_5be9b98c963f1e9d9ac13109fad230b8.jpg"><img src="https://captnotes.com/wp-content/uploads/2023/05/wp_editor_md_5be9b98c963f1e9d9ac13109fad230b8.jpg"></a></p>
+<p>这条推文就是耗哥和我聊到过往工作经历后的有感而发，也算是对晚辈的一份劝诫吧。我也认为卖惨式的“奋斗”并不能打动市场，顶多显得失败并不是因为“懒惰”。然而，即便是注重作息的耗哥，竟然也以这样突然的方式离开了。</p>
+<p>这远不是第一起程序员猝死，也不会是最后一起。各行各业，有梦想的人，注定痛并快乐着！</p>
+<p>希望包括我在内的所有朋友，多注意身体健康，无效的竞争有害无益，行业内卷犹如杀人的刀。活着，才能见证奇迹！</p>
+<p>最后，希望耗哥回首往事，欣慰没有辜负自己的梦想！安息！</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>

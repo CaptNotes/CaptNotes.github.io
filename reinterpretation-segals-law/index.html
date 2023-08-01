@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <title>
+    重新解读“手表定律” |  机长梦话
+  </title>
+  
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+ 
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+ 
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="机长梦话" type="application/atom+xml">
+</head>
+
+
+  <body id="bodyx">
+    <div class="hd posts">
+  <a href="/index.html"
+    ><i class="fa fa-reply replay-btn" aria-hidden="true"></i
+  ></a>
+  <div class="post-title">
+    <p>重新解读“手表定律”</p>
+    <hr />
+  </div>
+  <div class="post-content"><blockquote>
+<p>Segal’s Law: A man with a watch knows what time it is. A man with two watches is never sure. 手表定律：当人有一块手表时，知道时间；有两块时，反而不知道了。</p>
+</blockquote>
+<p>要让手表定律更加严谨，还得补上很多限定条件，简言之：两块看上去走时正常但时间不一致又没有网络校时功能的手表。</p>
+<p>这条定律的主要应用场景是组织管理，一旦深思熟虑之后确定了策略或目标，就必须果断地执行，而不能犹犹豫豫、左顾右盼。有一个清晰明确的目标，哪怕它并不完美，也好过同时有很多目标。</p>
+<p>不过，我反而想从更日常的角度，看看能否从这个定律得到什么启发。</p>
+<p>先在不影响结果的前提下做一些简化：假定肉眼不能确定明显时间差异的范围为 3 个小时；时间的精度为分钟。从而就有$180$种可能性。</p>
+<p>如果你有$1$块手表，时间准确的可能性就是$\frac {1}{180}$。相应的，错误的概率就是$1-\frac {1}{180}&#x3D;\frac{179}{180}$。假设准确率为$x$，错误率为$y$，即$x&#x3D;1-y$。</p>
+<p>如果有$2$块手表，将$2$同时代入等式两边：$2x&#x3D;2(1-y)$，等式依然成立，但获得正确时间的概率却从$\frac {1}{180}$提高到了$\frac {1}{90}$，直观地说，就是正确率从$0.56\%$提升到了$1.11\%$。继续，假设有$3$块手表，$3x&#x3D;3(1-y)$，得到正确时间的概率进一步从$\frac {1}{90}$变成$\frac {1}{60}$，也就是从$1.11\%$到$1.67\%$的提升…… 以此类推，当你有$180$块不同时间的手表时，一定有一块显示的是正确时间。</p>
+<p>随着正确率的不断提升，错误率也在相应地降低。虽然我们知道这 180 块手表里，一定有一块是准确的，但还不能确定到底是哪一块。这时我们可以将手表按时针指向分成几组，再观察其它外部信息，来判断哪些时间是明显错误的。比如这时候我们看到已经有人从食堂打饭回来了，而食堂每天都是中午 12 点整开放，那么就可以果断放弃还在 11 点的那些表。再假设食堂到了 1 点就关闭堂食，但回来的人说还有很多人才刚刚开始吃，所以我们就可以只保留时间在 12 点以内的 60 块表。诸如此类，我们可以借助观察，不断缩小范围，最终确定最准确的或是可接受误差范围内的所有信息。</p>
+<p>因此，在不需要做重大管理决策的日常生活中，手表定律似乎从相反的一面告诉我们：对于同一件事物，你获取到的信息版本越多，才越有可能接近真相。</p>
+</div>
+</div>
+ <div class="footer" id="footer">
+  <p>
+     © 2023
+    <a class="flink" href="/">机长梦话</a>
+    <label class="el-switch el-switch-green el-switch-sm">
+      <input type="checkbox" id="update_style" />
+      <label for="update_style"></label>
+    </label>
+  </p>
+</div>
+<input type="hidden" id="web_style" value="black" />
+
+<script src="/libs/jquery.min.js"></script>
+ 
+<script src="/libs/highlight/highlight.pack.js"></script>
+
+
+<script src="/js/js.js"></script>
+ 
+<script src="/js/dark-mode-toggle.js"></script>
+
+
+<script>
+  function detectColorScheme() {
+    var theme = "light"; //default
+
+    // get last used theme from local cache
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "dark") {
+        theme = "dark";
+      }
+    } else if (!window.matchMedia) {
+      // matchMedia not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // OS has set Dark Mode
+      theme = "dark";
+    }
+
+    // set detected theme
+    if (theme === "dark") {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  }
+
+  const toggleTheme = document.querySelector(
+    'input#theme-switch[type="checkbox"]'
+  );
+
+  function setThemeDark() {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.checked = true;
+  }
+  function setThemeLight() {
+    localStorage.setItem("theme", "light");
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleTheme.checked = false;
+  }
+
+  // Listener for theme change by toggle
+  toggleTheme.addEventListener(
+    "change",
+    function (e) {
+      if (e.target.checked) {
+        setThemeDark();
+      } else {
+        setThemeLight();
+      }
+    },
+    false
+  );
+
+  // Listener for theme change by OS
+  var toggleOS = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleOS.addEventListener("change", function (e) {
+    if (e.matches) {
+      setThemeDark();
+    } else {
+      setThemeLight();
+    }
+  });
+
+  // call theme detection
+  detectColorScheme();
+</script>
+<style type="text/css">
+  .v * {
+    color: #698fca;
+  }
+
+  .v .vlist .vcard .vhead .vsys {
+    color: #15202b;
+  }
+
+  .v .vlist .vcard .vh .vmeta .vat {
+    color: #638fd5;
+  }
+
+  .v .vlist .vcard .vhead .vnick {
+    color: #6ba1ff;
+  }
+
+  .v a {
+    color: #8696b1;
+  }
+
+  .v .vlist .vcard .vhead .vnick:hover {
+    color: #669bfc;
+  }
+</style>
+
+  </body>
+</html>
