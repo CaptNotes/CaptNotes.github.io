@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://captnotes.com/animal-spirits/</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/the-start-up-of-you/</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/finance-is-a-true-lie/</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/talk-about-science-fiction-by-liu-cixin/</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/charlie-chaplin-by-andre-bazin/</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/warren-buffett-and-the-interpretation-of-financial-statements/</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/value-investing/</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://captnotes.com/wikinomics/</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -1244,69 +1307,6 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/value-investing/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/warren-buffett-and-the-interpretation-of-financial-statements/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/charlie-chaplin-by-andre-bazin/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/talk-about-science-fiction-by-liu-cixin/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/finance-is-a-true-lie/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/the-start-up-of-you/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/animal-spirits/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://captnotes.com/how-to-trade-in-stocks/</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -1486,14 +1486,14 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/categories/startup/%E5%88%9B%E4%B8%9A%E5%8D%81%E5%BF%8C/</loc>
+    <loc>https://captnotes.com/categories/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://captnotes.com/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://captnotes.com/categories/startup/%E5%88%9B%E4%B8%9A%E5%8D%81%E5%BF%8C/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
