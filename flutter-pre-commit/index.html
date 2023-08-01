@@ -31,7 +31,8 @@
     <p>Flutter的强制自我审查</p>
     <hr />
   </div>
-  <div class="post-content"><p>在<a href="https://captnotes.com/effective_code_review">《如何做好 Code Review》</a>中我论述过代码审查对于保证代码品质的重要性，最近开始采用<a target="_blank" rel="noopener" href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks">Git Hooks</a>的方式为<a target="_blank" rel="noopener" href="https://flutter.dev/">Flutter</a>项目增加提交前的强制自我审查。这样做的好处在于将机械化检查交给电脑，把思考的部分留给大脑。</p>
+  <div class="post-content"><p><img src="/../images/featured_flutter_pre_commit.jpg"></p>
+<p>在<a href="/effective-code-review">《如何做好 Code Review》</a>中我论述过代码审查对于保证代码品质的重要性，最近开始采用<a target="_blank" rel="noopener" href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks">Git Hooks</a>的方式为<a target="_blank" rel="noopener" href="https://flutter.dev/">Flutter</a>项目增加提交前的强制自我审查。这样做的好处在于将机械化检查交给电脑，把思考的部分留给大脑。</p>
 <p>我认为代码提交前需要做的最基本检查包括格式和代码规范。前者交给<a target="_blank" rel="noopener" href="https://prettier.io/">Prettier</a>，后者由<a target="_blank" rel="noopener" href="https://docs.flutter.dev/testing/debugging#the-dart-analyzer">Analyze</a>负责。</p>
 <h3 id="Lefthook"><a href="#Lefthook" class="headerlink" title="Lefthook"></a>Lefthook</h3><p>我采用<a target="_blank" rel="noopener" href="https://github.com/evilmartians/lefthook">Lefthook</a>实现 Git 钩子，如果你有更好的选择，欢迎推荐分享。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Mac</span></span><br><span class="line">brew install lefthook &amp;&amp; lefthook install</span><br></pre></td></tr></table></figure>
