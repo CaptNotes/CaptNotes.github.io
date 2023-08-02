@@ -14,7 +14,7 @@ a {
 a:focus,
 a:hover {
   color: #699be9;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .footer {
   text-align: center;
@@ -58,7 +58,6 @@ a:hover {
   padding: 0 40px 5px 40px;
   font-size: 14px;
   font-style: italic;
-  text-decoration: none;
 }
 .postsummary::before {
   font: normal normal normal 16px/1 FontAwesome;
