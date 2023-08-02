@@ -1,3 +1,9 @@
+https://captnotes.com/binary-tree-basis/
+https://captnotes.com/flutter-pre-commit/
+https://captnotes.com/n-queens-problem/
+https://captnotes.com/remove-before-flight/
+https://captnotes.com/what-is-mixin/
+https://captnotes.com/best-practice-of-singleton-pattern-in-dart/
 https://captnotes.com/first-break-all-the-rules/
 https://captnotes.com/the-presentation-secrets-of-steve-jobs/
 https://captnotes.com/do-you-matter/
@@ -107,7 +113,6 @@ https://captnotes.com/alliance/
 https://captnotes.com/demand/
 https://captnotes.com/how-google-works/
 https://captnotes.com/beauty-of-mathematics/
-https://captnotes.com/remove-before-flight/
 https://captnotes.com/how-to-be-a-power-connector/
 https://captnotes.com/caigentan/
 https://captnotes.com/thinking-fast-and-slow/
@@ -131,10 +136,6 @@ https://captnotes.com/yu-jun-product-methodology/
 https://captnotes.com/super-conversion-rate/
 https://captnotes.com/the-xiaomi-way/
 https://captnotes.com/poor-economics/
-https://captnotes.com/best-practice-of-singleton-pattern-in-dart/
-https://captnotes.com/what-is-mixin/
-https://captnotes.com/binary-tree-basis/
-https://captnotes.com/n-queens-problem/
 https://captnotes.com/how-to-reduce-package-size-of-weapp/
 https://captnotes.com/fix-wechat-crash-on-ios/
 https://captnotes.com/a-thought-from-a-quotation-of-the-mass-energy-equation/
@@ -150,7 +151,6 @@ https://captnotes.com/anger-ttos/
 https://captnotes.com/return-to-dust/
 https://captnotes.com/read-program-on-the-left-hand-and-poetry-on-the-right/
 https://captnotes.com/clean-architecture/
-https://captnotes.com/flutter-pre-commit/
 https://captnotes.com/playfulness-ttos/
 https://captnotes.com/forever-party-b/
 https://captnotes.com/barely-fall-asleep-after-woke-up/
