@@ -31,11 +31,11 @@
     <p>如何做好Code Review</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_effective_code_review.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_effective_code_review.jpg" alt=""></p>
 <p>Code Review（代码审查）很多团队都会做，效果如何不好说。如果你能轻易地从一堆出自正经团队之手的代码里找出几个低级错误，往往意味着团队管理者长期忽视了 Code Review 的重要性。</p>
 <p>根据经验，匆匆应付功能实现和漏洞修复而将 Code Review 流于形式的团队不在少数。当然，每个人都能列举一大堆“客观原因”，而且每一条理由听起来都是那么的有说服力。然而，没做好就是没做好，狡辩只会让场面变得更加恶心。</p>
 <h1 id="What（什么是-Code-Review）"><a href="#What（什么是-Code-Review）" class="headerlink" title="What（什么是 Code Review）"></a>What（什么是 Code Review）</h1><blockquote>
-<p>A code review is the process of examining written code with the purpose of highlighting mistakes in order to learn from them. – <a target="_blank" rel="noopener" href="https://www.techopedia.com/definition/14299/code-review">Techopedia</a></p>
+<p>A code review is the process of examining written code with the purpose of highlighting mistakes in order to learn from them. — <a target="_blank" rel="noopener" href="https://www.techopedia.com/definition/14299/code-review">Techopedia</a></p>
 </blockquote>
 <p>这是目前我见过对 Code Review 最言简意赅的定义。其实怎么描述并不重要，重要的是我们要达到什么样的目的。</p>
 <h1 id="Why（为什么要做-Code-Review）"><a href="#Why（为什么要做-Code-Review）" class="headerlink" title="Why（为什么要做 Code Review）"></a>Why（为什么要做 Code Review）</h1><p>提高代码质量是程序员端稳饭碗、少挨点儿骂的最有效途径。其实 Code Review 就是很好的相互切磋、共同进步的机会，效果要比独自埋头干啃《21 天精通 ×××》之类的“宝典”好得多。当然，前提是目的明确、态度端正。</p>
@@ -169,5 +169,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

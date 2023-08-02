@@ -31,7 +31,7 @@
     <p>《重新定义公司》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_how_google_works.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_how_google_works.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -253,7 +253,7 @@
 <li>在互联网时代，人类拥有无限的信息连接性以及计算能力。但是，有太多的人仍然拘泥于老旧闭塞的思维方式。</li>
 <li>提高产品质量，打造以用户为重的企业文化。</li>
 <li>巨大的挑战往往是吸引以及留住创意精英的巨大磁场。</li>
-<li>70&#x2F;20&#x2F;10 资源配置原则：将 70%的资源配置给核心业务，20%分配给新兴产品，剩下的 10%投在全新产品上。</li>
+<li>70/20/10 资源配置原则：将 70%的资源配置给核心业务，20%分配给新兴产品，剩下的 10%投在全新产品上。</li>
 <li>资源上的稀缺，是激发创意的催化剂。</li>
 <li>要以创意为准则，不要逢等级为圭臬。——史蒂夫·乔布斯</li>
 <li>失败没什么大不了。</li>
@@ -393,5 +393,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

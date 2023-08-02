@@ -31,7 +31,7 @@
     <p>《增长黑客》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_growth_hacker.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_growth_hacker.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -73,7 +73,7 @@
 <li>伟大的人，不会在意自尊，大家都把注意力集中到产品上，毕竟这才是最有效的工作方式。—— 史蒂夫·乔布斯</li>
 <li>一切美好愿望必须首先建立在这样的前提之下——市场愿意接纳这款产品。</li>
 <li>成功地执行一项没有意义的计划是导致失败的致命原因。</li>
-<li>创业团队早期的首要任务，就是找到产品与市场的契合点（Product&#x2F;Market Fit），而不是盲目地大干快上。</li>
+<li>创业团队早期的首要任务，就是找到产品与市场的契合点（Product/Market Fit），而不是盲目地大干快上。</li>
 <li>聪明的团队应当从产品每一次调整所带来的反馈中汲取营养，不断强化优势，及时纠正错误，找到适合自己的 PMF 状态，成为被市场接受的玩家，而不是因循守旧地沉沦在基友的产品创意中，完全罔顾市场的需求和反馈。</li>
 <li>让产品与市场契合，归根到底就是产品提供的服务能够切实满足用户的某方面需求。</li>
 <li>需求应当源自客观实际，而非主观臆断。</li>
@@ -96,7 +96,7 @@
 <li>简要概述 → 话题事件 → 核心特色 → 主要功能 → 团队访谈 → 未来计划 → 有奖活动 → 转化引导。</li>
 </ul>
 </li>
-<li>A&#x2F;B 测试的基本思想包括：<ul>
+<li>A/B 测试的基本思想包括：<ul>
 <li>提供两个方案并行测试</li>
 <li>不同方案之间只存在一个变量，排除其它干扰因素</li>
 <li>以某种标准判断结果优劣，筛出最优方案</li>
@@ -279,5 +279,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

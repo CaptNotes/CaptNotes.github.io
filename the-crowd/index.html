@@ -31,7 +31,7 @@
     <p>《乌合之众》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_the_crowd.png"></p>
+  <div class="post-content"><p><img src="../images/featured_the_crowd.png" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。本书中所提到的“群体”多指异质化比较明显的临时社会群体，少部分指专业化或同质化较强的团队。</p>
 </blockquote>
@@ -243,5 +243,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

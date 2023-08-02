@@ -31,7 +31,7 @@
     <p>《社会化营销：人人参与的营销力量》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_social_marketing.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_social_marketing.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -110,7 +110,7 @@
 <li>【互联网应用要注意抢占用户的碎片时间。】</li>
 <li>微博本身具有媒体属性，传播不再是点对点（1:1）、点对面（1:N）传播，而是裂变式的广泛传播（1:N:M）。</li>
 <li>微博具备 3W 特性（whoever, whenever, wherever），可以全人群、全方位和全时段地发布信息。</li>
-<li>社会化营销财务回报率 &#x3D; 营销产生的边际利润 &#x2F; 投入在营销的边际资源 X 100%</li>
+<li>社会化营销财务回报率 = 营销产生的边际利润 / 投入在营销的边际资源 X 100%</li>
 <li>口碑传播者不一定是顾客，也可能只是消费的影响者。</li>
 <li>营销内容必须人性化，没有人喜欢关注一个像机器人一样的企业。</li>
 <li>内容策略有三个维度：<ul>
@@ -289,5 +289,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

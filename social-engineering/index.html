@@ -31,7 +31,7 @@
     <p>《社会工程：安全体系中的人性漏洞》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_social_engineering.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_social_engineering.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -227,10 +227,10 @@
 <li>培养自己对别人思考及做事方式的好奇心，而不要固步自封。好奇心可以防止你作出草率的决定。在寻求帮助或请求得到更多的信息时，这会让人觉得你很谦逊。</li>
 <li>保持心胸开阔，探究并接受别人在某一话题上的想法，即使这些想法与你的想法有所不同。</li>
 <li>人类的基本心理需求：<ul>
-<li>归属&#x2F;联系&#x2F;爱</li>
-<li>权力&#x2F;地位&#x2F;能力</li>
-<li>自由&#x2F;责任</li>
-<li>娱乐&#x2F;学习</li>
+<li>归属/联系/爱</li>
+<li>权力/地位/能力</li>
+<li>自由/责任</li>
+<li>娱乐/学习</li>
 </ul>
 </li>
 <li>共识可以在人与人之间创建超越得失的关系。</li>
@@ -253,7 +253,7 @@
 </ul>
 </li>
 <li>演讲者以故事和引用的方式来传达信息会更为有效。</li>
-<li>人类思维缓冲区溢出 &#x3D; 预期定律 + 思维铺垫 + 嵌入式指令</li>
+<li>人类思维缓冲区溢出 = 预期定律 + 思维铺垫 + 嵌入式指令</li>
 <li>理解人们的思维方式、思维定势形成的原因以及怎样改变他们的想法，这是成为一名社会工程人员的必修课。</li>
 <li>晓之以理，不如示之以利。—— Benjamin Franklin</li>
 <li>说服目标对象的 5 项基本原则：<ol>
@@ -530,5 +530,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

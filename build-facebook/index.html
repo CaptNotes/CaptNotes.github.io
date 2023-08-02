@@ -31,7 +31,7 @@
     <p>《打造Facebook》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_build_facebook.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_build_facebook.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -212,7 +212,7 @@
 </ol>
 </li>
 <li>期权一般是在股票还非常低时发放，股价较高时，就改成了受限股票单元。</li>
-<li>不管是齐全还是受限股票单元一般是分 4 年付清，也有少数公司是 5 年。在第一个周年日之后，1&#x2F;4（如果是 4 年付清）的期权会发到员工名下，接下来的每一个月 1&#x2F;48 的期权会发到员工名下，知道第 4 年末，所有期权付清。期权一旦到了员工名下，员工可以选择在任何时候行权，直到离职后的 3 个月。</li>
+<li>不管是齐全还是受限股票单元一般是分 4 年付清，也有少数公司是 5 年。在第一个周年日之后，1/4（如果是 4 年付清）的期权会发到员工名下，接下来的每一个月 1/48 的期权会发到员工名下，知道第 4 年末，所有期权付清。期权一旦到了员工名下，员工可以选择在任何时候行权，直到离职后的 3 个月。</li>
 <li>在 Facebook，定期的业绩评价每年进行两次，年中和年底各一次（这种情况在硅谷的公司中很常见），评价结果都会跟升职、工资、奖金挂钩，而年底评价还跟股份奖励有关。业绩评价由三个部分组成：自我评价、同事评价和老板评价。</li>
 <li>评价不能简单地写个结论完事，评价者要进行相关的阐述，用具体事例予以支持。</li>
 <li>在评分的同时，决定要不要推荐升值。通常只有在连续两次或以上得到高于“超越了期望”的评价才有可能获得升职机会。</li>
@@ -345,5 +345,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

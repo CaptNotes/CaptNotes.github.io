@@ -31,7 +31,7 @@
     <p>读《左手程序右手诗》</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_program_on_the_left_hand_and_poetry_on_the_right.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_program_on_the_left_hand_and_poetry_on_the_right.jpg" alt=""></p>
 <p>难得近日拾得闲暇来赏读<a target="_blank" rel="noopener" href="http://boolan.com/jjhou">侯捷</a>老师文集<a target="_blank" rel="noopener" href="https://boolan.com/lecture/1000001218">《左手程序右手诗》</a>。虽然从来无缘 C++、MFC、STL 或 COM 相关开发，但无妨我对侯捷老师在技术著&amp;译作领域成就的尊崇。一言以蔽之，侯捷老师的作品，也就随笔杂文我能看懂。</p>
 <p>我一向更容易对会写作的程序员心生好感。有趣的技术固然令人沉醉，但抛开技术不谈人生又终觉乏味。编码之余还有闲心碎念几句，宛如拉小提琴的爱因斯坦，一扫生冷木讷，更显平易亲和。所以遇到一些同行写的随笔，我常常会饶有兴致地拜读一番。而在技术圈层里，能够长期笔耕不辍进而沉淀丰厚优秀文字者，恕我直言，凤毛麟角。</p>
 <p>IT 是个日新月异的行业，新的技术、新的框架、新的风口、新的概念……层出不穷。波涛中乌泱泱尽是弄潮儿，但能否哪怕一次得以翻腾浪尖，不仅要靠平时的定力与刻苦，更要凭借大量幸运的因素。可想而知，如此氛围中还能数十载孜孜耕耘，潜心记录观察、思考以及心得，实属难能可贵！</p>
@@ -154,5 +154,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

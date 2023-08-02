@@ -31,9 +31,8 @@
     <p>从程序员的“劣根性”发散开去</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_bad_habits_of_coders.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_bad_habits_of_coders.jpg" alt=""></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * “劣根性”之所以加上引号是表明并非真想骂谁，而是对某些现象表达一点儿浅见。</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * 然而这种看法又带着些许自黑的色彩，也是为了警醒自己。</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>
-
 <p>从业十年来，我最反感从程序员嘴里听到的两句话分别是：</p>
 <blockquote>
 <ol>
@@ -168,5 +167,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

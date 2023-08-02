@@ -31,7 +31,7 @@
     <p>拙政情幽</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_memory_of_zhuozhengyuan.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_memory_of_zhuozhengyuan.jpg" alt=""></p>
 <blockquote>
 <p>改编自《女儿情》。</p>
 </blockquote>
@@ -152,5 +152,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

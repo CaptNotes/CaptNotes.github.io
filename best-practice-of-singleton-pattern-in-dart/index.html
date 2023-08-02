@@ -31,7 +31,7 @@
     <p>Dart单例模式最佳实践</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_best_practice_of_singleton_pattern_in_dart.png"></p>
+  <div class="post-content"><p><img src="../images/featured_best_practice_of_singleton_pattern_in_dart.png" alt=""></p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown">Created by Capt. Michael @ CaptNotes.com on 02/17/2020.</span></span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Singleton</span> </span>&#123;</span><br><span class="line">  Singleton._();</span><br><span class="line"></span><br><span class="line">  <span class="keyword">static</span> <span class="keyword">final</span> _instance = Singleton._();</span><br><span class="line"></span><br><span class="line">  <span class="keyword">factory</span> Singleton.getInstance() =&gt; _instance;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </div>
 </div>
@@ -149,5 +149,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

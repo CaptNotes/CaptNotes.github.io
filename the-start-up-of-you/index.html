@@ -31,7 +31,7 @@
     <p>《至关重要的关系》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_the_start_up_of_you.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_the_start_up_of_you.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -46,7 +46,7 @@
 <li>产品必须是原创的、绝版的、更快更好或更便宜的，才能占有一席之地。——南希·卢布林</li>
 <li>如果你想走一条有别于求职市场上其他求职者的道路，第一步就是要能够把下面的句子补充完整：“一家公司聘用我而不聘用其他人，是以为……”</li>
 <li>竞争优势是一切职业策略之根本。</li>
-<li>你的竞争优势是由三种各不相同且不断变化的力量相互作用而形成的：你的资产、你的追求&#x2F;价值观和市场现实，即你的综合能力在竞争市场的供求状况。</li>
+<li>你的竞争优势是由三种各不相同且不断变化的力量相互作用而形成的：你的资产、你的追求/价值观和市场现实，即你的综合能力在竞争市场的供求状况。</li>
 <li>工作时在专业项目中能否表现得出类拔萃，和你存折里有多少存款关系不大，关键在于技能、人脉和经历。</li>
 <li>热爱自己工作的人比那些只为赚钱而工作的人做得更好更长久。</li>
 <li>个性不是你找到的，而是自己浮现的。</li>
@@ -257,5 +257,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

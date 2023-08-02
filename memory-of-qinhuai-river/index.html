@@ -31,7 +31,7 @@
     <p>秦淮寻芳</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_memory_of_qinhuai_river.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_memory_of_qinhuai_river.jpg" alt=""></p>
 <p>百里秦淮笙歌艳，酌酒抚琴画舫缓。<br>醉卧竹塌梅雨绵，娉嫋豆蔻弄珠帘。<br>乌衣朱雀缀两岸，风流韵话传千年。<br>六朝才子出贡院，遍寻佳人在江南。</p>
 </div>
 </div>
@@ -149,5 +149,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

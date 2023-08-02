@@ -31,7 +31,7 @@
     <p>马老四不配光明正大地死</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_return_to_dust.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_return_to_dust.jpg" alt=""></p>
 <p>马老四的出场是在干农活时被三嫂催着出来见相亲对象曹贵英。平日里，谁会在意驴棚铲屎官马老四有没有按时出现在饭桌上。</p>
 <p>马有铁，行四，村里人习惯叫他马老四，以至于都忘了他的大名。兄弟四人，三个哥哥分别占了金、银、铜，到他这里，已然是最不值钱的“有铁”。他就像个影子，默默地生活在三哥家后院的小土坯房里，被他那又精又蠢的三哥马干吃尽。村里人调侃他被三哥压榨了这么多年，结婚都不舍得给他摆几桌酒，更甭说买个电视，他不吱声，只是处处护着曹贵英。</p>
 <p>马老四自闭、善良，愚而不昧、钝而不蠢，他知道谁好谁不好、也知道别人心里在算计什么，但他不计较，一辈子温良恭俭让。他是个典型的宿命论者，相信万物皆有命数——面对命数，“能说个啥”。</p>
@@ -157,5 +157,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

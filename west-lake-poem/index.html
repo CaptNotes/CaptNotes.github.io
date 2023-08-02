@@ -31,7 +31,7 @@
     <p>《西湖民间故事》诗词摘录</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_west_lake_poem.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_west_lake_poem.jpg" alt=""></p>
 <p>西湖明珠从天降，龙飞凤舞到钱塘。——《明珠》</p>
 <p>月老祠堂在眼前，千里姻缘一线牵。风雨湖上同舟渡，天涯寻来共枕眠。——《白娘子》</p>
 <p>孤山寺北贾亭西，水面初平云脚低。几处早莺争暖树，谁家新燕啄春泥。乱花渐欲迷人眼，浅草才能没马蹄。最爱湖东行不足，绿杨荫里白沙提。——《钱塘湖春行》白居易，《白公堤》</p>
@@ -151,5 +151,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

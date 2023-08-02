@@ -31,7 +31,7 @@
     <p>嫑以为天下为我独难</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_never_contempt_the_effort_of_others.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_never_contempt_the_effort_of_others.jpg" alt=""></p>
 <blockquote>
 <p>不要习惯性地认为别人的事儿都很简单。你看着简单，可能你未必了解细节；你看着简单，可能你并没有经历“一万小时的训练”……这不仅仅是尊不尊重别人的问题，这更是了不了解自己的问题。</p>
 </blockquote>
@@ -159,5 +159,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

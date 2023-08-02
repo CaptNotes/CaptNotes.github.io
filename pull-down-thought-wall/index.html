@@ -31,7 +31,7 @@
     <p>《拆掉思维里的墙》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_pull_down_thought_wall.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_pull_down_thought_wall.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -43,7 +43,7 @@
 <li>对于那些事业没有最后定型，还有抱负、有理想的年轻人来说，40 岁之前租房为好。——王石</li>
 <li>经济不独立就一定意味着梦想不独立。</li>
 <li>只要你内心坚定，只要你先相信：这个世界没有谁都能活下去，而且活得很好，你就会找到属于自己的幸福。</li>
-<li>能力 &#x3D; 天赋 × 时间</li>
+<li>能力 = 天赋 × 时间</li>
 <li>外物是无法完全掌控的，而我们又无比依赖这些东西。</li>
 <li>既不相信自己，又随时害怕失去。我们终将被奴役，成为安全感的奴隶。</li>
 <li>【孩子长大后能取得多大的成就，往往取决于小时候父母给他多大的自由发挥空间。】</li>
@@ -242,5 +242,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

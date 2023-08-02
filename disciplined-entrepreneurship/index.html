@@ -31,7 +31,7 @@
     <p>《自律型创业》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_disciplined_entrepreneurship.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_disciplined_entrepreneurship.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -157,7 +157,7 @@
 </ol>
 </li>
 <li>免费可以吸引很多人试用产品，是一种有效的降低顾客获取成本的策略。但它的作用也仅此而已，因为这样并不能保证你吸引来的“顾客”会为产品付费，哪怕是一分钱也好。当这些“顾客”免费试用产品时，你一样要产生生产成本，只有实现收入才能维持企业继续经营，因此还是要依靠付费顾客。</li>
-<li>授权使用费通常等于或低于单位产品销售价格的 1&#x2F;12。</li>
+<li>授权使用费通常等于或低于单位产品销售价格的 1/12。</li>
 <li>千万不要把顾客当成傻子，利用他们的单纯为企业赚钱。</li>
 <li>对一个企业来说，为顾客创造价值和寻找合适的商业模式同等重要，应当实现两者的平衡。</li>
 <li>评估盈利能力有两个重要指标，分别是顾客终身价值和顾客获取成本。</li>
@@ -322,5 +322,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

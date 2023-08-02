@@ -31,7 +31,7 @@
     <p>《大教堂与集市》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_the_cathedral_and_the_bazaar.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_the_cathedral_and_the_bazaar.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -91,7 +91,7 @@
 <li>给予激励是聪明的做法，但一定不能有附加条件，以避免把事情搞糟糕。</li>
 <li>信息不对称会给市场带来负面影响。</li>
 <li>如果满足下面这些条件，就该考虑开放源代码：<ol>
-<li>可靠性&#x2F;稳定性&#x2F;扩展性非常重要；</li>
+<li>可靠性/稳定性/扩展性非常重要；</li>
 <li>除了独立的同行评审，没有其它便捷易行的方法验证设计和实现的正确性；</li>
 <li>该软件对客户的业务非常关键；</li>
 <li>该软件创建或运转一个公共计算或通信基础架构；</li>
@@ -215,5 +215,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

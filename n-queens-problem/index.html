@@ -31,7 +31,7 @@
     <p>N皇后问题</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_n_queens_problem.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_n_queens_problem.jpg" alt=""></p>
 <p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98/11053477">N 皇后问题</a>是比较典型的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%9B%9E%E6%BA%AF%E6%B3%95">回溯法</a>问题，不过在回溯法中，解决 N 皇后问题算是有一些难度的了。</p>
 <p>网上有很多该问题的解法，我这个虽然不是抄来的，性能也不算彪悍，但相比之下，我对“<a href="/">机长出品</a>”的可读性还是很有信心的。所以捞点儿干货贴在这里，以备将来查阅之需。</p>
 <p>回溯法的本质是对<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86">树形结构的遍历</a>，一层一层递进，保留符合条件的节点。到达终点后，随着<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E9%80%92%E5%BD%92/1740695">递归</a>的一层层退出，抹掉上一次遍历时留下的痕迹，从而开始下一轮遍历。</p>
@@ -156,5 +156,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

@@ -31,7 +31,7 @@
     <p>成田的雾</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_fog_on_narita.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_fog_on_narita.jpg" alt=""></p>
 <blockquote>
 <p>纯属虚构的小小说，请勿对号入座。</p>
 </blockquote>
@@ -100,7 +100,7 @@
 <p>小李看了一眼机长，虽然机长不动声色，不过两人都表现得更加严肃了。日本鸟多是很正常的现象，再加上这雾蒙蒙的天气给人工驱鸟也带来了一点儿麻烦，但是二人并没有太多迟疑。</p>
 <p>“我操作。”机长一边说着一边向前平滑地推着节流阀推杆。</p>
 <p>“你操作。”副驾驶确认。</p>
-<p>呜……发动机发出愤怒的轰鸣，此刻飞机不再掩饰自己对万有引力的蔑视。N1（发动机低压转子转速）达到 40 的时候，机长检查双发运行平稳同步，于是按下了节流阀推杆上的 TO&#x2F;GA 键，发动机转速随即迅速攀升，轰鸣更大更猛烈了，就像是一头被囚困在阴暗地牢里的猛兽想要奋力挣脱身上的锁链！</p>
+<p>呜……发动机发出愤怒的轰鸣，此刻飞机不再掩饰自己对万有引力的蔑视。N1（发动机低压转子转速）达到 40 的时候，机长检查双发运行平稳同步，于是按下了节流阀推杆上的 TO/GA 键，发动机转速随即迅速攀升，轰鸣更大更猛烈了，就像是一头被囚困在阴暗地牢里的猛兽想要奋力挣脱身上的锁链！</p>
 <p>这是麦机长每次飞行中最激动的时刻——此时每台 CFM56-7 发动机每秒钟差不多吸入 750 公斤空气，相当于一个成年男人平均肺活量的 15.5 万倍——正是这低沉的怒吼，让他可以超脱一切世俗的羁绊，朝着纯净湛蓝的天空飞去，偶尔晴朗的夜空，更有一种在深邃宇宙中流浪的感觉。</p>
 <p>“80 节。”负责监控的小李喊道。</p>
 <p>“检查。”机长迅速环视飞行数据并确认。</p>
@@ -174,7 +174,7 @@
 <blockquote>
 <p>这只是一次发生在《微软：飞行模拟 2004》上的飞行记录，不过也可以用作小小说的创作素材。</p>
 </blockquote>
-<p><img src="/../images/illustration_fog_on_narita_01.jpg" alt="飞行记录"></p>
+<p><img src="../images/illustration_fog_on_narita_01.jpg" alt="飞行记录"></p>
 </div>
 </div>
  <div class="footer" id="footer">
@@ -291,5 +291,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

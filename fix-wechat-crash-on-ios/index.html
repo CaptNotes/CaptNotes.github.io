@@ -31,7 +31,7 @@
     <p>iOS微信卡死的正确解救姿势</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_fix_wechat_crash_on_ios.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_fix_wechat_crash_on_ios.jpg" alt=""></p>
 <blockquote>
 <p>症状：打开微信直接卡死，滚动、点击……任何操作都无法响应。如果保持屏幕常亮，也不会有任何改变；如果等到屏幕自动熄灭再点亮并进入系统，这时微信已经被后台挂起，点击微信图标，应用界面打开后很快就会闪退，闪退前也无法响应任何操作。</p>
 </blockquote>
@@ -156,5 +156,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

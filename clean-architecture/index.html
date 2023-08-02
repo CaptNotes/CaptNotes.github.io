@@ -31,7 +31,7 @@
     <p>《架构整洁之道》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_clean_architecture.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_clean_architecture.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -73,7 +73,7 @@
 <li>源代码的依赖方向永远是控制流方向的反转，这是 DIP 被称为依赖反转原则的原因。。</li>
 <li>组件是软件的部署单元，是整个软件系统在部署过程中可以独立完成部署的最小实体。</li>
 <li>与构建组件相关的三个基本原则：<ol>
-<li>REP（Release Reuse Equivalence Principle，复用&#x2F;发布等同原则）：软件复用的最小粒度应等同于其发布的最小粒度；</li>
+<li>REP（Release Reuse Equivalence Principle，复用/发布等同原则）：软件复用的最小粒度应等同于其发布的最小粒度；</li>
 <li>CCP（Common Closure Principle，共同闭包原则）：将那些会同时修改，并且为相同目的而修改的类放到同一个组件中，而将不会同时修改，并且不会为了相同目的而修改的那些类放到不同的组件中；</li>
 <li>CRP（Composite Reuse Principle，共同复用原则）：将经常共同复用的类和模块放在同一个组建中。</li>
 </ol>
@@ -101,7 +101,7 @@
 <li>通过将策略隔离，并让源代码中的依赖方向都统一调整为指向高层策略，可以大幅降低系统变更所带来的影响。</li>
 <li>用例本质上就是关于如何操作一个自动化系统的描述，它定义了用户需要提供的输入数据、用户应该得到的输出信息以及产生输出所应该采取的处理步骤。</li>
 <li>用例控制着业务实体之间的交互方式。</li>
-<li>用例并不描述系统与用户之间的接口，它只描述该应用在某些特定情景下的业务逻辑，这些业务逻辑所规范的是用户与业务实体之间的交互方式，它与数据流入&#x2F;流出系统的方式无关。</li>
+<li>用例并不描述系统与用户之间的接口，它只描述该应用在某些特定情景下的业务逻辑，这些业务逻辑所规范的是用户与业务实体之间的交互方式，它与数据流入/流出系统的方式无关。</li>
 <li>业务逻辑应该保持纯净，不要掺杂用户界面或者所使用的数据库相关的东西。在理想情况下，这部分代表业务逻辑的代码应该是整个系统的核心，其它低层概念的实现应该以插件形式接入系统中。业务逻辑应该是系统中最独立、复用性最高的代码。</li>
 <li>良好的架构设计应该只关注用例，并能将它们与其它的周边因素隔离开。</li>
 <li>不应该将未来的需求抽象化。</li>
@@ -226,5 +226,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

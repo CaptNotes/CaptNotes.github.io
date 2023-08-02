@@ -31,7 +31,7 @@
     <p>《专注力》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_focus.png"></p>
+  <div class="post-content"><p><img src="../images/featured_focus.png" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -67,7 +67,7 @@
 <li>【要想不拖延，去趟老北川。】</li>
 <li>通过训练他人以使自己获得正确的对待。</li>
 <li>世界上的人基本上可以分为积极人士——那些希望获胜的人，和消极人士——那些希望正确的人。</li>
-<li>万能回复：“尊敬的先生&#x2F;女士，您可能是对的。”</li>
+<li>万能回复：“尊敬的先生/女士，您可能是对的。”</li>
 <li>所有情形之下，人际关系的相处都会有一个“破冰”期，在这期间建立融洽的关系至关重要。</li>
 <li>如果你只使用自己最喜欢的一种语言方式，你的某些听众就不会和你产生共鸣。</li>
 <li>当你犯错时，进行重组而不是对自己失去信心。</li>
@@ -198,5 +198,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

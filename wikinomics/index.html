@@ -31,7 +31,7 @@
     <p>《维基经济学》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_wikinomics.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_wikinomics.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -89,7 +89,7 @@
 <li>按照把产品成功推向市场的能力，而不是根据创意是源于内部还是外部来进行奖赏的激励机制才是公正的。</li>
 <li>准确定位自己所寻求的知识的能力决定着一个企业能否从外部获取实用的创意和技术。</li>
 <li>为避免不在盲目的信息搜寻过程中偏离轨道，企业需要清晰地定义自己的目标和指导纲领。</li>
-<li>只有创造性的设计才能抓住机会——企业应考虑将客户的最终需要与技术&#x2F;商务结构所能提供的可能性结合起来。</li>
+<li>只有创造性的设计才能抓住机会——企业应考虑将客户的最终需要与技术/商务结构所能提供的可能性结合起来。</li>
 <li>在创造性的设计进程中，企业应该坚信这一原则：市场会越来越需要专业化人才。利用创意集市建立你的核心能力。把你的研发集中在你拥有最大竞争优势且最具价值的创新领域，并利用创意集市获取其它创新。</li>
 <li>吸收外部技术或知识产权的能力取决于如何将现有知识与过去已经掌握的知识联系起来。内部研发和外部获取是相互补充而不是相互替代。</li>
 <li>明智的公司将通过不同的渠道进行创新活动，如企业风险投资、消费者协作创造、开放社区中同行提出的有价值的建议以及合作伙伴和供应商专用的网络等。</li>
@@ -258,5 +258,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

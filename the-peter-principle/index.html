@@ -31,7 +31,7 @@
     <p>《彼得原理》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_the_peter_principle.jpg"></p>
+  <div class="post-content"><p><img src="../images/featured_the_peter_principle.jpg" alt=""></p>
 <blockquote>
 <p>注：【】部分为心得，非原文摘要。</p>
 </blockquote>
@@ -55,7 +55,7 @@
 <li>员工对晋升过程极为敏感（这就是所谓的“彼得倾向”），他们希望自己从前怎么升上来，后人就怎么再升上去。因此，他们大多会痛恨通过其它方式安插进来的人。</li>
 <li>层级组织中的员工并不是真的反对不胜任（彼得悖论）：他们批评不胜任，只是为了掩盖自己对被提拔者的嫉妒心。</li>
 <li>所谓贵人，就是在层级组织里级别比你高、能帮助你晋升的人。</li>
-<li>【不要跟不胜任的上司混，他&#x2F;她是挡路人！】</li>
+<li>【不要跟不胜任的上司混，他/她是挡路人！】</li>
 <li>彼得迂回法：在层级组织里，你必须摆脱挡路人，进入另一条没有障碍物的晋升通道。</li>
 <li>在采取彼得迂回法之前，逆序确定自己真的处于彼得窘境当中。</li>
 <li>每个贵人对你的帮助，都有一定的限度。</li>
@@ -75,7 +75,7 @@
 <li>只要碰到经济或政治危机，总有一件事确凿无疑——学问渊博的专家们总是会拿出各种不同的对策来。</li>
 <li>每一个政党都是一个层级组织。</li>
 <li>在新旧制度下，有很多候选人都一步迈上了立法者的职位，但从实际效果上来说，他们只是到达了自己的不胜任阶层。</li>
-<li>层级组织的效率和其成熟商数成反比。成熟商数，也即 Maturity Qutient，简称 MQ，计算公式如下：MQ&#x3D;到达不胜任级别的员工数 ×100÷ 该层级组织的全体员工数。显然，当 MQ 达到 100 时，该层级组织就无法完成任何有效工作了。</li>
+<li>层级组织的效率和其成熟商数成反比。成熟商数，也即 Maturity Qutient，简称 MQ，计算公式如下：MQ=到达不胜任级别的员工数 ×100÷ 该层级组织的全体员工数。显然，当 MQ 达到 100 时，该层级组织就无法完成任何有效工作了。</li>
 <li>员工总是对自己胜任的级别感到不满意：他执意要升到一个力所不能及的阶层去。</li>
 <li>挫折是晋升的必然结果。</li>
 <li>个人对自己的动机无意识，无法理解自己的情感，因此无法从自己的挫败中得到解脱。</li>
@@ -219,5 +219,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

@@ -31,7 +31,7 @@
     <p>《所谓管理好，就是会带人》摘要与心得</p>
     <hr />
   </div>
-  <div class="post-content"><p><img src="/../images/featured_the_ceo_code.jpeg"></p>
+  <div class="post-content"><p><img src="../images/featured_the_ceo_code.jpeg" alt=""></p>
 <blockquote>
 <p>注：【】部分为笔者心得，非原文摘抄。</p>
 </blockquote>
@@ -74,7 +74,7 @@
 <li>你更好地了解一个人，了解他的目标、了解他的恐惧并学习将他的语言，你就能更好地与他沟通。</li>
 <li>行为模式分四种：<ol>
 <li>直接型<ul>
-<li>特征：率真、缺少耐心、行为驱动、关注底线&#x2F;结果，使用讲述行为；</li>
+<li>特征：率真、缺少耐心、行为驱动、关注底线/结果，使用讲述行为；</li>
 <li>目标：结果与控制；</li>
 <li>惧怕：失去控制力、被利用；</li>
 </ul>
@@ -382,5 +382,20 @@
   }
 </style>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

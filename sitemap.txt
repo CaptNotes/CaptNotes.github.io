@@ -1,4 +1,8 @@
+https://captnotes.com/the-moral-premise/
+https://captnotes.com/reinterpretation-segals-law/
 https://captnotes.com/binary-tree-basis/
+https://captnotes.com/beauty-of-mathematics/
+https://captnotes.com/a-thought-from-a-quotation-of-the-mass-energy-equation/
 https://captnotes.com/flutter-pre-commit/
 https://captnotes.com/n-queens-problem/
 https://captnotes.com/remove-before-flight/
@@ -112,7 +116,6 @@ https://captnotes.com/on-liberty/
 https://captnotes.com/alliance/
 https://captnotes.com/demand/
 https://captnotes.com/how-google-works/
-https://captnotes.com/beauty-of-mathematics/
 https://captnotes.com/how-to-be-a-power-connector/
 https://captnotes.com/caigentan/
 https://captnotes.com/thinking-fast-and-slow/
@@ -130,7 +133,6 @@ https://captnotes.com/grammar-of-the-edit/
 https://captnotes.com/hooked/
 https://captnotes.com/martech/
 https://captnotes.com/social-engineering/
-https://captnotes.com/the-moral-premise/
 https://captnotes.com/lets-jog-middle-aged/
 https://captnotes.com/yu-jun-product-methodology/
 https://captnotes.com/super-conversion-rate/
@@ -138,8 +140,6 @@ https://captnotes.com/the-xiaomi-way/
 https://captnotes.com/poor-economics/
 https://captnotes.com/how-to-reduce-package-size-of-weapp/
 https://captnotes.com/fix-wechat-crash-on-ios/
-https://captnotes.com/a-thought-from-a-quotation-of-the-mass-energy-equation/
-https://captnotes.com/reinterpretation-segals-law/
 https://captnotes.com/the-man-from-earth/
 https://captnotes.com/why-i-despise-996/
 https://captnotes.com/rip-haoel/
@@ -161,8 +161,8 @@ https://captnotes.com/
 https://captnotes.com/categories/%E5%88%9B%E4%B8%9A/
 https://captnotes.com/categories/%E6%9D%82%E6%96%87/
 https://captnotes.com/categories/startup/
-https://captnotes.com/categories/%E7%AE%A1%E7%90%86/
 https://captnotes.com/categories/%E6%95%A3%E6%96%87/
+https://captnotes.com/categories/%E7%AE%A1%E7%90%86/
 https://captnotes.com/categories/%E9%98%85%E8%AF%BB/
 https://captnotes.com/categories/%E7%BC%96%E7%A8%8B/
 https://captnotes.com/categories/startup/%E5%88%9B%E4%B8%9A%E5%8D%81%E5%BF%8C/
