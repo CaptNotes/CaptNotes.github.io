@@ -2,6 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://captnotes.com/first-break-all-the-rules/</loc>
+    
+    <lastmod>2023-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/flight-instrument/</loc>
+    
+    <lastmod>2023-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/louder-than-words/</loc>
+    
+    <lastmod>2023-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/flying-the-big-jets/</loc>
+    
+    <lastmod>2023-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/build-facebook/</loc>
+    
+    <lastmod>2023-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/about-interview/</loc>
+    
+    <lastmod>2023-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/the-ceo-code/</loc>
+    
+    <lastmod>2023-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/no-rules-rules/</loc>
+    
+    <lastmod>2023-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://captnotes.com/social-engineering/</loc>
+    
+    <lastmod>2023-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://captnotes.com/the-moral-premise/</loc>
     
     <lastmod>2023-08-02</lastmod>
@@ -86,15 +167,6 @@
     <loc>https://captnotes.com/best-practice-of-singleton-pattern-in-dart/</loc>
     
     <lastmod>2023-08-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/first-break-all-the-rules/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -605,15 +677,6 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/flight-instrument/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://captnotes.com/start-up-nation/</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -749,15 +812,6 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/louder-than-words/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://captnotes.com/the-laws-of-subtraction/</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -848,15 +902,6 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/flying-the-big-jets/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://captnotes.com/the-cathedral-and-the-bazaar/</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -902,24 +947,6 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/build-facebook/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/about-interview/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://captnotes.com/linux-on-t43/</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -957,15 +984,6 @@
   
   <url>
     <loc>https://captnotes.com/architecture-of-large-web-site/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/the-ceo-code/</loc>
     
     <lastmod>2023-08-01</lastmod>
     
@@ -1163,15 +1181,6 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/no-rules-rules/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://captnotes.com/super-symbol-is-super-creativity/</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -1200,15 +1209,6 @@
   
   <url>
     <loc>https://captnotes.com/martech/</loc>
-    
-    <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://captnotes.com/social-engineering/</loc>
     
     <lastmod>2023-08-01</lastmod>
     
@@ -1472,14 +1472,14 @@
   </url>
   
   <url>
-    <loc>https://captnotes.com/categories/%E9%98%85%E8%AF%BB/</loc>
+    <loc>https://captnotes.com/categories/%E6%95%A3%E6%96%87/</loc>
     <lastmod>2023-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://captnotes.com/categories/%E6%95%A3%E6%96%87/</loc>
+    <loc>https://captnotes.com/categories/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2023-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
