@@ -3,11 +3,11 @@
   <title>机长梦话</title>
   
   <subtitle>不会拍电影的程序员不是好机长</subtitle>
-  <link href="https://captnotes.com/atom.xml" rel="self"/>
+  <link href="https://captnotes.github.io/atom.xml" rel="self"/>
   
-  <link href="https://captnotes.com/"/>
+  <link href="https://captnotes.github.io/"/>
   <updated>2023-08-01T15:59:34.337Z</updated>
-  <id>https://captnotes.com/</id>
+  <id>https://captnotes.github.io/</id>
   
   <author>
     <name>麦机长</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>嗔 - 创业十忌</title>
-    <link href="https://captnotes.com/anger-ttos/"/>
-    <id>https://captnotes.com/anger-ttos/</id>
+    <link href="https://captnotes.github.io/anger-ttos/"/>
+    <id>https://captnotes.github.io/anger-ttos/</id>
     <published>2023-06-01T09:48:02.000Z</published>
     <updated>2023-08-01T15:59:34.337Z</updated>
     
@@ -37,19 +37,19 @@
     
     
     
-    <category term="创业" scheme="https://captnotes.com/categories/%E5%88%9B%E4%B8%9A/"/>
+    <category term="创业" scheme="https://captnotes.github.io/categories/%E5%88%9B%E4%B8%9A/"/>
     
-    <category term="startup" scheme="https://captnotes.com/categories/startup/"/>
+    <category term="startup" scheme="https://captnotes.github.io/categories/startup/"/>
     
-    <category term="创业十忌" scheme="https://captnotes.com/categories/startup/%E5%88%9B%E4%B8%9A%E5%8D%81%E5%BF%8C/"/>
+    <category term="创业十忌" scheme="https://captnotes.github.io/categories/startup/%E5%88%9B%E4%B8%9A%E5%8D%81%E5%BF%8C/"/>
     
     
   </entry>
   
   <entry>
     <title>纪念左耳朵耗子（陈皓）</title>
-    <link href="https://captnotes.com/rip-haoel/"/>
-    <id>https://captnotes.com/rip-haoel/</id>
+    <link href="https://captnotes.github.io/rip-haoel/"/>
+    <id>https://captnotes.github.io/rip-haoel/</id>
     <published>2023-05-15T05:53:47.000Z</published>
     <updated>2023-08-01T16:07:26.067Z</updated>
     
@@ -65,15 +65,15 @@
     
     
     
-    <category term="杂文" scheme="https://captnotes.com/categories/%E6%9D%82%E6%96%87/"/>
+    <category term="杂文" scheme="https://captnotes.github.io/categories/%E6%9D%82%E6%96%87/"/>
     
     
   </entry>
   
   <entry>
     <title>嫑以为天下为我独难</title>
-    <link href="https://captnotes.com/never-contempt-the-effort-of-others/"/>
-    <id>https://captnotes.com/never-contempt-the-effort-of-others/</id>
+    <link href="https://captnotes.github.io/never-contempt-the-effort-of-others/"/>
+    <id>https://captnotes.github.io/never-contempt-the-effort-of-others/</id>
     <published>2023-05-11T09:21:26.000Z</published>
     <updated>2023-08-01T15:40:54.083Z</updated>
     
@@ -89,17 +89,17 @@
     
     
     
-    <category term="创业" scheme="https://captnotes.com/categories/%E5%88%9B%E4%B8%9A/"/>
+    <category term="创业" scheme="https://captnotes.github.io/categories/%E5%88%9B%E4%B8%9A/"/>
     
-    <category term="杂文" scheme="https://captnotes.com/categories/%E6%9D%82%E6%96%87/"/>
+    <category term="杂文" scheme="https://captnotes.github.io/categories/%E6%9D%82%E6%96%87/"/>
     
     
   </entry>
   
   <entry>
     <title>《李嘉诚：成功没有偶然》摘要与心得</title>
-    <link href="https://captnotes.com/li-ka-shing-no-coincidence-for-success/"/>
-    <id>https://captnotes.com/li-ka-shing-no-coincidence-for-success/</id>
+    <link href="https://captnotes.github.io/li-ka-shing-no-coincidence-for-success/"/>
+    <id>https://captnotes.github.io/li-ka-shing-no-coincidence-for-success/</id>
     <published>2023-04-25T09:43:05.000Z</published>
     <updated>2023-08-01T15:41:49.398Z</updated>
     
@@ -118,15 +118,15 @@
     
     
     
-    <category term="阅读" scheme="https://captnotes.com/categories/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://captnotes.github.io/categories/%E9%98%85%E8%AF%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>一旦醒来，再难睡着</title>
-    <link href="https://captnotes.com/barely-fall-asleep-after-woke-up/"/>
-    <id>https://captnotes.com/barely-fall-asleep-after-woke-up/</id>
+    <link href="https://captnotes.github.io/barely-fall-asleep-after-woke-up/"/>
+    <id>https://captnotes.github.io/barely-fall-asleep-after-woke-up/</id>
     <published>2023-01-24T10:03:10.000Z</published>
     <updated>2023-08-01T15:42:26.523Z</updated>
     
@@ -141,15 +141,15 @@
     
     
     
-    <category term="杂文" scheme="https://captnotes.com/categories/%E6%9D%82%E6%96%87/"/>
+    <category term="杂文" scheme="https://captnotes.github.io/categories/%E6%9D%82%E6%96%87/"/>
     
     
   </entry>
   
   <entry>
     <title>马老四不配光明正大地死</title>
-    <link href="https://captnotes.com/return-to-dust/"/>
-    <id>https://captnotes.com/return-to-dust/</id>
+    <link href="https://captnotes.github.io/return-to-dust/"/>
+    <id>https://captnotes.github.io/return-to-dust/</id>
     <published>2022-11-25T16:47:30.000Z</published>
     <updated>2023-08-01T15:54:46.896Z</updated>
     
@@ -165,15 +165,15 @@
     
     
     
-    <category term="影视" scheme="https://captnotes.com/categories/%E5%BD%B1%E8%A7%86/"/>
+    <category term="影视" scheme="https://captnotes.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
     
     
   </entry>
   
   <entry>
     <title>读《左手程序右手诗》</title>
-    <link href="https://captnotes.com/read-program-on-the-left-hand-and-poetry-on-the-right/"/>
-    <id>https://captnotes.com/read-program-on-the-left-hand-and-poetry-on-the-right/</id>
+    <link href="https://captnotes.github.io/read-program-on-the-left-hand-and-poetry-on-the-right/"/>
+    <id>https://captnotes.github.io/read-program-on-the-left-hand-and-poetry-on-the-right/</id>
     <published>2022-10-13T08:50:38.000Z</published>
     <updated>2023-08-01T15:54:19.709Z</updated>
     
@@ -188,15 +188,15 @@
     
     
     
-    <category term="阅读" scheme="https://captnotes.com/categories/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://captnotes.github.io/categories/%E9%98%85%E8%AF%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>《剪辑的语法》摘要与心得</title>
-    <link href="https://captnotes.com/grammar-of-the-edit/"/>
-    <id>https://captnotes.com/grammar-of-the-edit/</id>
+    <link href="https://captnotes.github.io/grammar-of-the-edit/"/>
+    <id>https://captnotes.github.io/grammar-of-the-edit/</id>
     <published>2022-05-05T13:24:18.000Z</published>
     <updated>2023-08-01T16:43:49.176Z</updated>
     
@@ -215,15 +215,15 @@
     
     
     
-    <category term="阅读" scheme="https://captnotes.com/categories/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://captnotes.github.io/categories/%E9%98%85%E8%AF%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>《故事的道德前提》摘要与心得</title>
-    <link href="https://captnotes.com/the-moral-premise/"/>
-    <id>https://captnotes.com/the-moral-premise/</id>
+    <link href="https://captnotes.github.io/the-moral-premise/"/>
+    <id>https://captnotes.github.io/the-moral-premise/</id>
     <published>2022-05-05T01:20:17.000Z</published>
     <updated>2023-08-02T01:52:14.231Z</updated>
     
@@ -242,15 +242,15 @@
     
     
     
-    <category term="阅读" scheme="https://captnotes.com/categories/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://captnotes.github.io/categories/%E9%98%85%E8%AF%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>《架构整洁之道》摘要与心得</title>
-    <link href="https://captnotes.com/clean-architecture/"/>
-    <id>https://captnotes.com/clean-architecture/</id>
+    <link href="https://captnotes.github.io/clean-architecture/"/>
+    <id>https://captnotes.github.io/clean-architecture/</id>
     <published>2022-04-04T14:20:05.000Z</published>
     <updated>2023-08-01T15:49:29.375Z</updated>
     
@@ -269,15 +269,15 @@
     
     
     
-    <category term="阅读" scheme="https://captnotes.com/categories/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://captnotes.github.io/categories/%E9%98%85%E8%AF%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>Flutter的强制自我审查</title>
-    <link href="https://captnotes.com/flutter-pre-commit/"/>
-    <id>https://captnotes.com/flutter-pre-commit/</id>
+    <link href="https://captnotes.github.io/flutter-pre-commit/"/>
+    <id>https://captnotes.github.io/flutter-pre-commit/</id>
     <published>2022-03-11T10:10:53.000Z</published>
     <updated>2023-08-02T01:34:12.649Z</updated>
     
@@ -292,15 +292,15 @@
     
     
     
-    <category term="编程" scheme="https://captnotes.com/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://captnotes.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
   </entry>
   
   <entry>
     <title>嬉 - 创业十忌</title>
-    <link href="https://captnotes.com/playfulness-ttos/"/>
-    <id>https://captnotes.com/playfulness-ttos/</id>
+    <link href="https://captnotes.github.io/playfulness-ttos/"/>
+    <id>https://captnotes.github.io/playfulness-ttos/</id>
     <published>2022-02-25T03:29:40.000Z</published>
     <updated>2023-08-01T15:44:16.867Z</updated>
     
@@ -318,19 +318,19 @@
     
     
     
-    <category term="创业" scheme="https://captnotes.com/categories/%E5%88%9B%E4%B8%9A/"/>
+    <category term="创业" scheme="https://captnotes.github.io/categories/%E5%88%9B%E4%B8%9A/"/>
     
-    <category term="startup" scheme="https://captnotes.com/categories/startup/"/>
+    <category term="startup" scheme="https://captnotes.github.io/categories/startup/"/>
     
-    <category term="创业十忌" scheme="https://captnotes.com/categories/startup/%E5%88%9B%E4%B8%9A%E5%8D%81%E5%BF%8C/"/>
+    <category term="创业十忌" scheme="https://captnotes.github.io/categories/startup/%E5%88%9B%E4%B8%9A%E5%8D%81%E5%BF%8C/"/>
     
     
   </entry>
   
   <entry>
     <title>永远的乙方</title>
-    <link href="https://captnotes.com/forever-party-b/"/>
-    <id>https://captnotes.com/forever-party-b/</id>
+    <link href="https://captnotes.github.io/forever-party-b/"/>
+    <id>https://captnotes.github.io/forever-party-b/</id>
     <published>2022-02-21T00:53:15.000Z</published>
     <updated>2023-08-01T15:43:54.141Z</updated>
     
@@ -345,17 +345,17 @@
     
     
     
-    <category term="创业" scheme="https://captnotes.com/categories/%E5%88%9B%E4%B8%9A/"/>
+    <category term="创业" scheme="https://captnotes.github.io/categories/%E5%88%9B%E4%B8%9A/"/>
     
-    <category term="管理" scheme="https://captnotes.com/categories/%E7%AE%A1%E7%90%86/"/>
+    <category term="管理" scheme="https://captnotes.github.io/categories/%E7%AE%A1%E7%90%86/"/>
     
     
   </entry>
   
   <entry>
     <title>玩转二叉树</title>
-    <link href="https://captnotes.com/binary-tree-basis/"/>
-    <id>https://captnotes.com/binary-tree-basis/</id>
+    <link href="https://captnotes.github.io/binary-tree-basis/"/>
+    <id>https://captnotes.github.io/binary-tree-basis/</id>
     <published>2021-12-11T06:55:11.000Z</published>
     <updated>2023-08-02T01:49:45.116Z</updated>
     
@@ -370,15 +370,15 @@
     
     
     
-    <category term="编程" scheme="https://captnotes.com/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://captnotes.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
   </entry>
   
   <entry>
     <title>N皇后问题</title>
-    <link href="https://captnotes.com/n-queens-problem/"/>
-    <id>https://captnotes.com/n-queens-problem/</id>
+    <link href="https://captnotes.github.io/n-queens-problem/"/>
+    <id>https://captnotes.github.io/n-queens-problem/</id>
     <published>2021-12-06T13:26:25.000Z</published>
     <updated>2023-08-02T01:30:38.728Z</updated>
     
@@ -393,15 +393,15 @@
     
     
     
-    <category term="编程" scheme="https://captnotes.com/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://captnotes.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
   </entry>
   
   <entry>
     <title>如何减小微信小程序代码包大小</title>
-    <link href="https://captnotes.com/how-to-reduce-package-size-of-weapp/"/>
-    <id>https://captnotes.com/how-to-reduce-package-size-of-weapp/</id>
+    <link href="https://captnotes.github.io/how-to-reduce-package-size-of-weapp/"/>
+    <id>https://captnotes.github.io/how-to-reduce-package-size-of-weapp/</id>
     <published>2021-10-20T16:03:40.000Z</published>
     <updated>2023-08-01T16:18:22.402Z</updated>
     
@@ -416,15 +416,15 @@
     
     
     
-    <category term="编程" scheme="https://captnotes.com/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://captnotes.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
   </entry>
   
   <entry>
     <title>iOS微信卡死的正确解救姿势</title>
-    <link href="https://captnotes.com/fix-wechat-crash-on-ios/"/>
-    <id>https://captnotes.com/fix-wechat-crash-on-ios/</id>
+    <link href="https://captnotes.github.io/fix-wechat-crash-on-ios/"/>
+    <id>https://captnotes.github.io/fix-wechat-crash-on-ios/</id>
     <published>2021-10-07T06:11:53.000Z</published>
     <updated>2023-08-01T16:16:49.846Z</updated>
     
@@ -440,15 +440,15 @@
     
     
     
-    <category term="杂文" scheme="https://captnotes.com/categories/%E6%9D%82%E6%96%87/"/>
+    <category term="杂文" scheme="https://captnotes.github.io/categories/%E6%9D%82%E6%96%87/"/>
     
     
   </entry>
   
   <entry>
     <title>从引用质能方程想到的</title>
-    <link href="https://captnotes.com/a-thought-from-a-quotation-of-the-mass-energy-equation/"/>
-    <id>https://captnotes.com/a-thought-from-a-quotation-of-the-mass-energy-equation/</id>
+    <link href="https://captnotes.github.io/a-thought-from-a-quotation-of-the-mass-energy-equation/"/>
+    <id>https://captnotes.github.io/a-thought-from-a-quotation-of-the-mass-energy-equation/</id>
     <published>2021-08-10T23:49:23.000Z</published>
     <updated>2023-08-02T01:47:51.655Z</updated>
     
@@ -464,15 +464,15 @@
     
     
     
-    <category term="杂文" scheme="https://captnotes.com/categories/%E6%9D%82%E6%96%87/"/>
+    <category term="杂文" scheme="https://captnotes.github.io/categories/%E6%9D%82%E6%96%87/"/>
     
     
   </entry>
   
   <entry>
     <title>重新解读“手表定律”</title>
-    <link href="https://captnotes.com/reinterpretation-segals-law/"/>
-    <id>https://captnotes.com/reinterpretation-segals-law/</id>
+    <link href="https://captnotes.github.io/reinterpretation-segals-law/"/>
+    <id>https://captnotes.github.io/reinterpretation-segals-law/</id>
     <published>2021-07-30T18:54:32.000Z</published>
     <updated>2023-08-02T01:50:26.169Z</updated>
     
@@ -488,15 +488,15 @@
     
     
     
-    <category term="杂文" scheme="https://captnotes.com/categories/%E6%9D%82%E6%96%87/"/>
+    <category term="杂文" scheme="https://captnotes.github.io/categories/%E6%9D%82%E6%96%87/"/>
     
     
   </entry>
   
   <entry>
     <title>《社会工程：安全体系中的人性漏洞》摘要与心得</title>
-    <link href="https://captnotes.com/social-engineering/"/>
-    <id>https://captnotes.com/social-engineering/</id>
+    <link href="https://captnotes.github.io/social-engineering/"/>
+    <id>https://captnotes.github.io/social-engineering/</id>
     <published>2021-07-23T15:23:49.000Z</published>
     <updated>2023-08-02T07:52:40.196Z</updated>
     
@@ -515,7 +515,7 @@
     
     
     
-    <category term="阅读" scheme="https://captnotes.com/categories/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://captnotes.github.io/categories/%E9%98%85%E8%AF%BB/"/>
     
     
   </entry>
