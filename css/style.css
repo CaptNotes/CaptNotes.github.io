@@ -206,6 +206,7 @@ hr {
   line-height: 1.5;
   word-wrap: break-word;
   letter-spacing: 1px;
+  text-align: start;
 }
 .post-content .pl-c {
   color: #6a737d;
