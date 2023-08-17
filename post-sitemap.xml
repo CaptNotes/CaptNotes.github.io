@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://captnotes.github.io/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+
+
+    <url>
+        <loc>https://captnotes.github.io/first-break-all-the-rules/</loc>
+        <lastmod>2023-08-02T09:29:00.139Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/flight-instrument/</loc>
+        <lastmod>2023-08-02T09:20:49.299Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/louder-than-words/</loc>
+        <lastmod>2023-08-02T09:17:09.503Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/flying-the-big-jets/</loc>
+        <lastmod>2023-08-02T09:14:29.700Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/build-facebook/</loc>
+        <lastmod>2023-08-02T09:11:17.876Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/about-interview/</loc>
+        <lastmod>2023-08-02T09:10:19.786Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-ceo-code/</loc>
+        <lastmod>2023-08-02T09:08:22.369Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/no-rules-rules/</loc>
+        <lastmod>2023-08-02T07:54:34.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/social-engineering/</loc>
+        <lastmod>2023-08-02T07:52:40.196Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-moral-premise/</loc>
+        <lastmod>2023-08-02T01:52:14.231Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/reinterpretation-segals-law/</loc>
+        <lastmod>2023-08-02T01:50:26.169Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/binary-tree-basis/</loc>
+        <lastmod>2023-08-02T01:49:45.116Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/beauty-of-mathematics/</loc>
+        <lastmod>2023-08-02T01:49:02.169Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/a-thought-from-a-quotation-of-the-mass-energy-equation/</loc>
+        <lastmod>2023-08-02T01:47:51.655Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/flutter-pre-commit/</loc>
+        <lastmod>2023-08-02T01:34:12.649Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/n-queens-problem/</loc>
+        <lastmod>2023-08-02T01:30:38.728Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/remove-before-flight/</loc>
+        <lastmod>2023-08-02T01:29:33.747Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/what-is-mixin/</loc>
+        <lastmod>2023-08-02T01:27:06.722Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/best-practice-of-singleton-pattern-in-dart/</loc>
+        <lastmod>2023-08-02T01:19:08.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-presentation-secrets-of-steve-jobs/</loc>
+        <lastmod>2023-08-01T19:16:06.959Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/do-you-matter/</loc>
+        <lastmod>2023-08-01T19:15:29.500Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-innovators-dilemma/</loc>
+        <lastmod>2023-08-01T19:15:07.605Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-innovators-solution/</loc>
+        <lastmod>2023-08-01T19:14:39.407Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/pull-down-thought-wall/</loc>
+        <lastmod>2023-08-01T19:14:18.510Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-five-dysfunctions-of-a-team/</loc>
+        <lastmod>2023-08-01T19:13:57.256Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-three-signs-of-a-miserable-job/</loc>
+        <lastmod>2023-08-01T19:13:25.250Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/memory-of-office-of-the-president/</loc>
+        <lastmod>2023-08-01T19:13:09.503Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/memory-of-qinhuai-river/</loc>
+        <lastmod>2023-08-01T19:11:23.581Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/memory-of-xuanwu-lake/</loc>
+        <lastmod>2023-08-01T19:09:45.542Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-e-myth-manager/</loc>
+        <lastmod>2023-08-01T19:08:18.398Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/memory-of-huqiu/</loc>
+        <lastmod>2023-08-01T19:08:00.555Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/memory-of-zhuozhengyuan/</loc>
+        <lastmod>2023-08-01T19:06:44.405Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/memory-of-hanshan-temple/</loc>
+        <lastmod>2023-08-01T19:05:25.857Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/memory-of-gengletang/</loc>
+        <lastmod>2023-08-01T19:03:10.429Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/outliers/</loc>
+        <lastmod>2023-08-01T19:00:16.047Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/orbiting-the-giant-hairball/</loc>
+        <lastmod>2023-08-01T18:59:59.956Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-peter-principle/</loc>
+        <lastmod>2023-08-01T18:59:37.837Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/old-teahouse/</loc>
+        <lastmod>2023-08-01T18:59:09.195Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/time-for-most-important/</loc>
+        <lastmod>2023-08-01T18:58:48.478Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/highest-duty/</loc>
+        <lastmod>2023-08-01T18:58:32.149Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/standalone-summary/</loc>
+        <lastmod>2023-08-01T18:58:16.657Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/on-the-cloud/</loc>
+        <lastmod>2023-08-01T18:57:25.704Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/baked-in/</loc>
+        <lastmod>2023-08-01T18:57:06.994Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-social-atom/</loc>
+        <lastmod>2023-08-01T18:56:48.598Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/what-is-life/</loc>
+        <lastmod>2023-08-01T18:56:27.831Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/cognitive-surplus/</loc>
+        <lastmod>2023-08-01T18:56:08.082Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/reality-is-broken/</loc>
+        <lastmod>2023-08-01T18:55:49.170Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-perfect-swarm/</loc>
+        <lastmod>2023-08-01T18:55:29.491Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/viral-loop/</loc>
+        <lastmod>2023-08-01T18:55:10.010Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-paradox-of-choice/</loc>
+        <lastmod>2023-08-01T18:54:48.784Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/instinct/</loc>
+        <lastmod>2023-08-01T18:54:30.323Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/influence/</loc>
+        <lastmod>2023-08-01T18:54:11.891Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/rework/</loc>
+        <lastmod>2023-08-01T18:53:48.153Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/mean-genes/</loc>
+        <lastmod>2023-08-01T18:53:32.285Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/julian-assange/</loc>
+        <lastmod>2023-08-01T18:53:10.303Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/die-kunst-des-klaren-denkens/</loc>
+        <lastmod>2023-08-01T18:52:55.385Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/focus/</loc>
+        <lastmod>2023-08-01T18:52:34.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-design-of-design/</loc>
+        <lastmod>2023-08-01T18:52:14.831Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/insanely-simple/</loc>
+        <lastmod>2023-08-01T18:51:51.482Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/listening/</loc>
+        <lastmod>2023-08-01T18:51:20.762Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-crowd/</loc>
+        <lastmod>2023-08-01T18:51:05.092Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/becoming-a-writer/</loc>
+        <lastmod>2023-08-01T18:50:46.442Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/hackers-and-painters/</loc>
+        <lastmod>2023-08-01T18:49:40.785Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/practices-of-anagile-developer/</loc>
+        <lastmod>2023-08-01T18:49:26.300Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-lean-startup/</loc>
+        <lastmod>2023-08-01T18:49:01.894Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-tipping-point/</loc>
+        <lastmod>2023-08-01T18:48:39.750Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-upside-of-irrationality/</loc>
+        <lastmod>2023-08-01T18:48:20.343Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-hacker-ethic-and-the-spirit-of-the-information-age/</loc>
+        <lastmod>2023-08-01T18:47:57.580Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/mans-search-for-himself/</loc>
+        <lastmod>2023-08-01T18:47:31.786Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/social-marketing/</loc>
+        <lastmod>2023-08-01T18:47:13.624Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/simple-and-usable-web-mobile-and-interaction-design/</loc>
+        <lastmod>2023-08-01T18:46:47.419Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-silver-lining/</loc>
+        <lastmod>2023-08-01T18:46:20.413Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-product-managers-handbook/</loc>
+        <lastmod>2023-08-01T18:45:45.913Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/inspired/</loc>
+        <lastmod>2023-08-01T18:45:24.106Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/west-lake-poem/</loc>
+        <lastmod>2023-08-01T18:37:25.903Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/start-up-nation/</loc>
+        <lastmod>2023-08-01T18:35:02.365Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/2000-years-of-chinese-politics/</loc>
+        <lastmod>2023-08-01T18:32:19.634Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/how-to-trade-in-stocks/</loc>
+        <lastmod>2023-08-01T18:30:17.028Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/animal-spirits/</loc>
+        <lastmod>2023-08-01T18:28:48.730Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-start-up-of-you/</loc>
+        <lastmod>2023-08-01T18:27:11.547Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/finance-is-a-true-lie/</loc>
+        <lastmod>2023-08-01T18:25:32.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/talk-about-science-fiction-by-liu-cixin/</loc>
+        <lastmod>2023-08-01T18:23:12.622Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/charlie-chaplin-by-andre-bazin/</loc>
+        <lastmod>2023-08-01T18:21:05.432Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/warren-buffett-and-the-interpretation-of-financial-statements/</loc>
+        <lastmod>2023-08-01T18:20:40.128Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/value-investing/</loc>
+        <lastmod>2023-08-01T18:20:00.410Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/wikinomics/</loc>
+        <lastmod>2023-08-01T18:19:25.087Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-art-of-dramatic-writing/</loc>
+        <lastmod>2023-08-01T18:17:50.733Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/core-skills-of-script-writer/</loc>
+        <lastmod>2023-08-01T18:15:50.287Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/fog-on-narita/</loc>
+        <lastmod>2023-08-01T18:12:48.549Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/zen-and-the-art-of-motorcycle-maintenance/</loc>
+        <lastmod>2023-08-01T18:11:55.501Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-laws-of-subtraction/</loc>
+        <lastmod>2023-08-01T18:05:53.687Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/discours-de-lamethode/</loc>
+        <lastmod>2023-08-01T18:04:18.307Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/think-on-these-things/</loc>
+        <lastmod>2023-08-01T18:03:59.476Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/drive/</loc>
+        <lastmod>2023-08-01T18:01:40.068Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/inside-apple/</loc>
+        <lastmod>2023-08-01T18:01:21.791Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/die-kunst-des-klugen-handelns/</loc>
+        <lastmod>2023-08-01T17:56:09.999Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/contagious/</loc>
+        <lastmod>2023-08-01T17:54:00.776Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-automatic-customer/</loc>
+        <lastmod>2023-08-01T17:51:44.004Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/high-output-management/</loc>
+        <lastmod>2023-08-01T17:50:21.890Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-customer-rules/</loc>
+        <lastmod>2023-08-01T17:48:13.098Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-cathedral-and-the-bazaar/</loc>
+        <lastmod>2023-08-01T17:44:25.290Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/reading-skills/</loc>
+        <lastmod>2023-08-01T17:41:25.333Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/web/</loc>
+        <lastmod>2023-08-01T17:38:47.655Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-hard-thing-about-hard-things/</loc>
+        <lastmod>2023-08-01T17:36:07.688Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/zero-to-one/</loc>
+        <lastmod>2023-08-01T17:32:09.118Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/linux-on-t43/</loc>
+        <lastmod>2023-08-01T17:22:42.561Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/bad-habits-of-coders/</loc>
+        <lastmod>2023-08-01T17:16:34.082Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-southwest-airlines-way/</loc>
+        <lastmod>2023-08-01T17:15:34.917Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/business-networking/</loc>
+        <lastmod>2023-08-01T17:15:00.560Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/architecture-of-large-web-site/</loc>
+        <lastmod>2023-08-01T17:11:57.493Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/how-we-decide/</loc>
+        <lastmod>2023-08-01T17:08:19.671Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/hit-refresh/</loc>
+        <lastmod>2023-08-01T17:07:44.129Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-nature-of-technology/</loc>
+        <lastmod>2023-08-01T17:07:12.301Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-effective-executive/</loc>
+        <lastmod>2023-08-01T17:06:30.100Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/growth-hacker/</loc>
+        <lastmod>2023-08-01T17:05:46.298Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-willpower-instinct/</loc>
+        <lastmod>2023-08-01T17:05:04.986Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/on-liberty/</loc>
+        <lastmod>2023-08-01T17:04:22.474Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/alliance/</loc>
+        <lastmod>2023-08-01T17:03:46.648Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/demand/</loc>
+        <lastmod>2023-08-01T17:03:06.027Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/how-google-works/</loc>
+        <lastmod>2023-08-01T17:02:29.078Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/how-to-be-a-power-connector/</loc>
+        <lastmod>2023-08-01T16:57:29.885Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/caigentan/</loc>
+        <lastmod>2023-08-01T16:56:29.093Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/thinking-fast-and-slow/</loc>
+        <lastmod>2023-08-01T16:55:36.806Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/kelly/</loc>
+        <lastmod>2023-08-01T16:54:55.329Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-real-life-mba/</loc>
+        <lastmod>2023-08-01T16:54:17.204Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/disciplined-entrepreneurship/</loc>
+        <lastmod>2023-08-01T16:53:14.426Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/da-dao-zhi-yi/</loc>
+        <lastmod>2023-08-01T16:51:05.958Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/effective-code-review/</loc>
+        <lastmod>2023-08-01T16:50:49.808Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/blitzscaling-the-lightning-fast-path-to-building-massively-valuable-companies/</loc>
+        <lastmod>2023-08-01T16:48:21.949Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/shipping-greatness/</loc>
+        <lastmod>2023-08-01T16:47:51.862Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/preface-ttos/</loc>
+        <lastmod>2023-08-01T16:43:49.908Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/super-symbol-is-super-creativity/</loc>
+        <lastmod>2023-08-01T16:43:49.340Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/grammar-of-the-edit/</loc>
+        <lastmod>2023-08-01T16:43:49.176Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/hooked/</loc>
+        <lastmod>2023-08-01T16:43:49.134Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/martech/</loc>
+        <lastmod>2023-08-01T16:43:48.796Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/lets-jog-middle-aged/</loc>
+        <lastmod>2023-08-01T16:30:26.331Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/yu-jun-product-methodology/</loc>
+        <lastmod>2023-08-01T16:30:04.521Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/super-conversion-rate/</loc>
+        <lastmod>2023-08-01T16:26:20.720Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-xiaomi-way/</loc>
+        <lastmod>2023-08-01T16:24:45.865Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/poor-economics/</loc>
+        <lastmod>2023-08-01T16:24:03.342Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/how-to-reduce-package-size-of-weapp/</loc>
+        <lastmod>2023-08-01T16:18:22.402Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/fix-wechat-crash-on-ios/</loc>
+        <lastmod>2023-08-01T16:16:49.846Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/the-man-from-earth/</loc>
+        <lastmod>2023-08-01T16:12:09.062Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/why-i-despise-996/</loc>
+        <lastmod>2023-08-01T16:08:45.175Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/rip-haoel/</loc>
+        <lastmod>2023-08-01T16:07:26.067Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/extravagance-ttos/</loc>
+        <lastmod>2023-08-01T16:05:18.209Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/suspicion-ttos/</loc>
+        <lastmod>2023-08-01T16:04:51.476Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/gripe-ttos/</loc>
+        <lastmod>2023-08-01T16:04:10.751Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/arrogance-ttos/</loc>
+        <lastmod>2023-08-01T16:00:11.894Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/anger-ttos/</loc>
+        <lastmod>2023-08-01T15:59:34.337Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/return-to-dust/</loc>
+        <lastmod>2023-08-01T15:54:46.896Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/read-program-on-the-left-hand-and-poetry-on-the-right/</loc>
+        <lastmod>2023-08-01T15:54:19.709Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/clean-architecture/</loc>
+        <lastmod>2023-08-01T15:49:29.375Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/playfulness-ttos/</loc>
+        <lastmod>2023-08-01T15:44:16.867Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/forever-party-b/</loc>
+        <lastmod>2023-08-01T15:43:54.141Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/barely-fall-asleep-after-woke-up/</loc>
+        <lastmod>2023-08-01T15:42:26.523Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/li-ka-shing-no-coincidence-for-success/</loc>
+        <lastmod>2023-08-01T15:41:49.398Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/never-contempt-the-effort-of-others/</loc>
+        <lastmod>2023-08-01T15:40:54.083Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->
