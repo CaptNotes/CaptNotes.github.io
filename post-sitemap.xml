@@ -9,8 +9,8 @@
 
 
     <url>
-        <loc>https://captnotes.github.io/reputation-ttos/</loc>
-        <lastmod>2023-10-15T06:57:43.336Z</lastmod>
+        <loc>https://captnotes.github.io/conceit-ttos/</loc>
+        <lastmod>2023-10-16T02:27:36.013Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -18,7 +18,31 @@
 
     <url>
         <loc>https://captnotes.github.io/preface-ttos/</loc>
-        <lastmod>2023-10-15T03:29:44.276Z</lastmod>
+        <lastmod>2023-10-16T01:55:59.544Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/extravagance-ttos/</loc>
+        <lastmod>2023-10-16T01:50:57.210Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/gripe-ttos/</loc>
+        <lastmod>2023-10-16T01:50:48.433Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/reputation-ttos/</loc>
+        <lastmod>2023-10-16T01:50:41.943Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -26,7 +50,39 @@
 
     <url>
         <loc>https://captnotes.github.io/lust-ttos/</loc>
-        <lastmod>2023-10-14T07:31:53.320Z</lastmod>
+        <lastmod>2023-10-16T01:50:32.554Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/suspicion-ttos/</loc>
+        <lastmod>2023-10-16T01:50:27.619Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/arrogance-ttos/</loc>
+        <lastmod>2023-10-16T01:50:22.392Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/playfulness-ttos/</loc>
+        <lastmod>2023-10-16T01:50:16.794Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://captnotes.github.io/anger-ttos/</loc>
+        <lastmod>2023-10-16T01:50:11.496Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -1185,46 +1241,6 @@
     </url>
 
     <url>
-        <loc>https://captnotes.github.io/extravagance-ttos/</loc>
-        <lastmod>2023-08-01T16:05:18.209Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://captnotes.github.io/suspicion-ttos/</loc>
-        <lastmod>2023-08-01T16:04:51.476Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://captnotes.github.io/gripe-ttos/</loc>
-        <lastmod>2023-08-01T16:04:10.751Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://captnotes.github.io/arrogance-ttos/</loc>
-        <lastmod>2023-08-01T16:00:11.894Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://captnotes.github.io/anger-ttos/</loc>
-        <lastmod>2023-08-01T15:59:34.337Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://captnotes.github.io/return-to-dust/</loc>
         <lastmod>2023-08-01T15:54:46.896Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1243,14 +1259,6 @@
     <url>
         <loc>https://captnotes.github.io/clean-architecture/</loc>
         <lastmod>2023-08-01T15:49:29.375Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://captnotes.github.io/playfulness-ttos/</loc>
-        <lastmod>2023-08-01T15:44:16.867Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
