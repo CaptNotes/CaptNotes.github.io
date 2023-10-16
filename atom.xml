@@ -6,7 +6,7 @@
   <link href="https://captnotes.github.io/atom.xml" rel="self"/>
   
   <link href="https://captnotes.github.io/"/>
-  <updated>2023-10-16T02:30:02.008Z</updated>
+  <updated>2023-10-16T07:57:58.707Z</updated>
   <id>https://captnotes.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>痴 - 创业十忌</title>
+    <link href="https://captnotes.github.io/obsession-ttos/"/>
+    <id>https://captnotes.github.io/obsession-ttos/</id>
+    <published>2023-10-17T02:00:00.000Z</published>
+    <updated>2023-10-16T07:57:58.707Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="../images/featured_obsession_ttos.jpg" alt="痴 - 创业十忌"></p><p><a href="/preface-ttos">序</a></p><blockquote><p>痴：痴迷。</p></blockquote><p>虽然专注是创业者必备的优良品质，但我建议要区分痴迷与专注。开门见山地说，我不看好把个人痴迷当作市场需求的创业动机。</p><p>李嘉诚曾说，不要和业务谈恋爱。也即是说，创业者可以爱上如何打磨自己的创业方法论，至于当前做什么业务，主要取决于市场需求。假若市场需求发生了巨大变化，迅速转手旧有业务，切入新的赛道，只要方法论是高效的，依然可以很快取得成绩。</p><p>但是在过往的经历中，我也耳濡目染很多用个人痴迷程度替代市场调查的失败案例。为什么说这样做很危险呢，你想想自己最痴迷的东西，会不会很容易认为许多人都会喜欢，甚至无法理解其他人为什么不会动心？所以，当我们仅仅从痴迷的角度去看待一件事物的时候，往往容易夸大其市场需求，给自己太多浪漫的错误信号，从而认定这是一条必然一帆风顺的赛道。</p><p>或许有的朋友会问，做自己不喜欢的东西，怎么能扛得住创业道路上的各种艰辛与风险呢？如前所述，创业者真正应该爱上的，是自己的创业方法论。如果把自己的创业基本功打磨扎实，有一天会突然意识到，自己的团队具体做什么业务似乎已经不那么重要了，无非是顺应市场、赚取属于自己的那份酬劳。然而看着自己的创业方法论攻下一个又一个迥异的山头，这份成就感更加安全可靠。</p><p>话说回来，即使自己喜欢的正好也是市场需求很大的，谁又能保证这块市场永远繁荣呢。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;../images/featured_obsession_ttos.jpg&quot; alt=&quot;痴 - 创业十忌&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/preface-ttos&quot;&gt;序&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;痴：痴迷。&lt;/p&gt;
+&lt;/blo</summary>
+      
+    
+    
+    
+    <category term="创业" scheme="https://captnotes.github.io/categories/%E5%88%9B%E4%B8%9A/"/>
+    
+    <category term="startup" scheme="https://captnotes.github.io/categories/startup/"/>
+    
+    <category term="创业十忌" scheme="https://captnotes.github.io/categories/startup/%E5%88%9B%E4%B8%9A%E5%8D%81%E5%BF%8C/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>妄 - 创业十忌</title>
@@ -505,30 +535,6 @@
     
     
     <category term="编程" scheme="https://captnotes.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>iOS微信卡死的正确解救姿势</title>
-    <link href="https://captnotes.github.io/fix-wechat-crash-on-ios/"/>
-    <id>https://captnotes.github.io/fix-wechat-crash-on-ios/</id>
-    <published>2021-10-07T06:11:53.000Z</published>
-    <updated>2023-08-01T16:16:49.846Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="../images/featured_fix_wechat_crash_on_ios.jpg" alt=""></p><blockquote><p>症状：打开微信直接卡死，滚动、点击……任何操作都无法响应。如果保持屏幕常亮，也不会有任何改变；如果等到屏幕自动熄灭再点亮并进入系统，这时微信已经被后台挂起，点击微信图标，应用界面打开后很快就会闪退，闪退前也无法响应任何操作。</p></blockquote><p>微信卡死就像牙疼一样，没遇到呢不觉得是个事儿，遇到了就得着急上火。尤其是有些聊天记录经常需要用到，又不能轻易卸载重装。</p><p>其实卡死的情况之前也遇到过，但卡了会儿又莫名其妙好了，就没太在意。这回不同，十来次重启应用和系统都无法解决，电脑端微信登录请求也无法被手机端接收，也就无法及时处理微信消息和备份聊天记录。由于前几天刚清理过微信缓存，系统剩余空间也还很充裕，因此问题就变得削微有些棘手。</p><p>从网络搜索来看，咨询类似问题的用户也不少，但是回复的解决办法一个比一个扯淡。扯淡主要是因为眼瞎又急于表现，比如人家都说了，卡得死死的，任何操作都做不了，还告诉人家点哪哪哪进入设置去清理缓存；或者已经说明了具体的 iPhone 型号（X 及以上），还用老掉牙的“Home+关机键”的办法来教别人如何强制重启…… GFYS!</p><p>既然网上的办法靠不住，那还是自求多福吧。一顿骚操作之后，我无意中发现了<strong>解决办法： 1. 在手机桌面长按微信应用图标，弹出菜单； 2. 点击“收付款”、“扫一扫”或“我的二维码”其中任何一个来打开微信； 3. 微信启动后大概率会自行崩溃，不要紧，重复步骤 1 和 2； 4. 大概 4、5 次以后，不断地崩溃会触发微信自身的异常检测程序； 5. 点击下一步，直到询问是否清理缓存，选择清理缓存。</strong></p><p>然后问题就解决了，接下来先赶紧全量备份微信聊天记录，以免哪天连上诉办法都解决不了卡死的问题。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;../images/featured_fix_wechat_crash_on_ios.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;症状：打开微信直接卡死，滚动、点击……任何操作都无法响应。如果保持屏幕常亮，也不会有任何改变；如果等到</summary>
-      
-    
-    
-    
-    <category term="杂文" scheme="https://captnotes.github.io/categories/%E6%9D%82%E6%96%87/"/>
     
     
   </entry>
