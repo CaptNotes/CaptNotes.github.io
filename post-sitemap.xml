@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://captnotes.github.io/the-peter-principle/</loc>
+        <lastmod>2025-01-07T15:50:58.180Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://captnotes.github.io/preface-ttos/</loc>
         <lastmod>2023-10-24T03:34:01.158Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -379,14 +387,6 @@
     <url>
         <loc>https://captnotes.github.io/orbiting-the-giant-hairball/</loc>
         <lastmod>2023-08-01T18:59:59.956Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://captnotes.github.io/the-peter-principle/</loc>
-        <lastmod>2023-08-01T18:59:37.837Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

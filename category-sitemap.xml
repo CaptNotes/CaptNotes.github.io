@@ -9,6 +9,13 @@
 
 
     <url>
+        <loc>https://captnotes.github.io/categories/%25E9%2598%2585%25E8%25AF%25BB/</loc>
+        <lastmod>2025-01-07T15:50:58.180Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://captnotes.github.io/categories/startup/%25E5%2588%259B%25E4%25B8%259A%25E5%258D%2581%25E5%25BF%258C/</loc>
         <lastmod>2023-10-24T03:34:01.158Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -25,13 +32,6 @@
     <url>
         <loc>https://captnotes.github.io/categories/%25E5%2588%259B%25E4%25B8%259A/</loc>
         <lastmod>2023-10-24T03:34:01.158Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://captnotes.github.io/categories/%25E9%2598%2585%25E8%25AF%25BB/</loc>
-        <lastmod>2023-08-02T09:29:00.139Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
